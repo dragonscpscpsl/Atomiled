@@ -126,5 +126,7 @@ Localized Exiled READMEs
 
 # Big Thanks
 
+<h1 align="center">
 Thanks for @someone (atsomeone) helping me to do the loader
+</h1>
 
