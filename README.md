@@ -3,6 +3,8 @@
 Atomiled is a plugin loader based on exiled.
 --------------------------------------------
 ExMod Exiled Licence: https://github.com/ExMod-Team/EXILED/blob/master/LICENSE
+----------------------------------------------------------------------------------------
+Credits: AtomBombası (atombombasi_55908) @someone (atsomeone)
 
 <div align="center"><img src="https://github.com/user-attachments/assets/5ea95992-2aeb-47c3-bd29-c966285276e0" height=75 alt="Exiled SCPSL, SCP Secret Laboratory Exiled, Exiled SCP: Secret Laboratory, Modding Framework, Mods, Exiled Mod SCPSL"/></div>
 <h1 align="center">ATOMILED</h1>
