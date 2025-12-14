@@ -23,7 +23,7 @@ Atomiled is a plugin loader based on exiled.
 </div>
 
 <p align="center">
-  <img alt="EXILED Development" src="https://repobeats.axiom.co/api/embed/19be90a4299eb2cfb0891a0c35774a120ed0f1ec.svg">
+  <img alt="ATOMILED Development" src="https://repobeats.axiom.co/api/embed/50a26f81d88f2cb6f9598bccfc2362c785255bf3.svg">
 </p>
 
 <h1 align="center">
