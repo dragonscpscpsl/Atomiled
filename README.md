@@ -3,11 +3,12 @@
 Atomiled is a plugin loader based on exiled.
 
 <div align="center"><img src="https://github.com/user-attachments/assets/5ea95992-2aeb-47c3-bd29-c966285276e0" height=75 alt="Exiled SCPSL, SCP Secret Laboratory Exiled, Exiled SCP: Secret Laboratory, Modding Framework, Mods, Exiled Mod SCPSL"/></div>
-<h1 align="center">Exiled</h1>
-<h6 align="center">EXtended In-runtime Library for External Development</h6>
 <h1 align="center">ATOMILED</h1>
 <h6 align="center">Advanced, Tool Open Modular In-runtime plugin Loader based on the EXILED framework Development</h6>
 <h6 align="center">EXILED altyapısı üzerine inşa edilmiş, gelişmiş ve modüler bir in-runtime plugin loader</h6>
+-------------------------------------------------------------------------------------------------------------------------
+<h1 align="center">Exiled</h1>
+<h6 align="center">EXtended In-runtime Library for External Development</h6>
 <div align="center">
     Join our
     <a href="https://discord.gg/PyUkWTg">Exiled Discord</a>
