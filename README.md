@@ -1,6 +1,10 @@
 # Atomiled
 ------------
 Atomiled is a plugin loader based on exiled.
+--------------------------------------------
+ExMod Exiled Licence: https://github.com/ExMod-Team/EXILED/blob/master/LICENSE
+----------------------------------------------------------------------------------------
+Credits: AtomBombası (atombombasi_55908) @someone (atsomeone) ExMod Exiled Team
 
 <div align="center"><img src="https://github.com/user-attachments/assets/5ea95992-2aeb-47c3-bd29-c966285276e0" height=75 alt="Exiled SCPSL, SCP Secret Laboratory Exiled, Exiled SCP: Secret Laboratory, Modding Framework, Mods, Exiled Mod SCPSL"/></div>
 <h1 align="center">ATOMILED</h1>
@@ -116,6 +120,15 @@ Localized Exiled READMEs
   </div>
 </div>
 
+# Note
+
 <h5 align="center">This repo is a fork of <a href="https://github.com/Exiled-Team/EXILED">Exiled-Team/EXILED</a> after changes in project leadership</h5> 
-<h6 align="center">and forked working from <a href="https://github.com/ExMod-Team/EXILED">ExMod Exiled</a></h6>
+<h6 align="center">and forked (based) from <a href="https://github.com/ExMod-Team/EXILED">ExMod Exiled</a></h6>
 <h7 align="center">You can access the commit this update was forked from <a href="https://github.com/Exiled-Team/EXILED/tree/8b03fe7d9d2fe7ebffd5e6d1d038fc3881cdeb70">here</a>.</h7>
+
+# Big Thanks
+
+<h1 align="center">
+Thanks for @someone (atsomeone) helping me to do the loader
+</h1>
+
