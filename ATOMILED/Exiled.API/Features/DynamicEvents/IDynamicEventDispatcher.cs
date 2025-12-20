@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.DynamicEvents
+namespace Atomiled.API.Features.DynamicEvents
 {
     /// <summary>
     /// Defines a dynamic event dispatcher.

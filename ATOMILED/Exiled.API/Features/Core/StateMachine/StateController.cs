@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.StateMachine
+namespace Atomiled.API.Features.Core.StateMachine
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Features.Attributes;
-    using Exiled.API.Features.Core;
-    using Exiled.API.Features.DynamicEvents;
+    using Atomiled.API.Features.Attributes;
+    using Atomiled.API.Features.Core;
+    using Atomiled.API.Features.DynamicEvents;
 
     /// <summary>
     /// The base controller which handles actors using in-context states.

@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Commands
+namespace Atomiled.CustomItems.Commands
 {
     using System;
 
     using CommandSystem;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     using UnityEngine;
 

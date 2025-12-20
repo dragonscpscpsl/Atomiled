@@ -1,13 +1,13 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="HumanObjective.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Objectives
+namespace Atomiled.API.Features.Objectives
 {
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using Respawning.Objectives;
 
     /// <summary>

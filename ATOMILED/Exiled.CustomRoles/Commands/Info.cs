@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.Commands
+namespace Atomiled.CustomRoles.Commands
 {
     using System;
     using System.Text;
 
     using CommandSystem;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     /// <summary>
     /// The command to view info about a specific role.

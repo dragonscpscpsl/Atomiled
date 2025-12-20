@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using System;
     using System.Collections.Generic;
@@ -14,7 +14,7 @@ namespace Exiled.API.Extensions
     using System.Text;
     using System.Text.RegularExpressions;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
     /// <summary>
     /// A set of extensions for <see cref="string"/>.

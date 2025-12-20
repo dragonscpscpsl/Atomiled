@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     /// <summary>
     /// All available dance variants being used by SCP-3114.

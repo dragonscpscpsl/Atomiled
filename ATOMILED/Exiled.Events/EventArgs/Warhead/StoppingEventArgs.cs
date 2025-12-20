@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Warhead
+namespace Atomiled.Events.EventArgs.Warhead
 {
     using API.Features;
 

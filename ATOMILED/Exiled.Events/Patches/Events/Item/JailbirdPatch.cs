@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Item
+namespace Atomiled.Events.Patches.Events.Item
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Item;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Item;
     using Handlers;
     using HarmonyLib;
     using InventorySystem.Items.Jailbird;

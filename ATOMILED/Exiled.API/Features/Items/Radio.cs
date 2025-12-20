@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
     using Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
 
     using InventorySystem.Items.Radio;
 

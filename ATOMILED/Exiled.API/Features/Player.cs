@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
@@ -18,16 +18,16 @@ namespace Exiled.API.Features
     using CustomPlayerEffects.Danger;
     using DamageHandlers;
     using Enums;
-    using Exiled.API.Features.Core.Interfaces;
-    using Exiled.API.Features.CustomStats;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Hazards;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Roles;
-    using Exiled.API.Interfaces;
-    using Exiled.API.Structs;
+    using Atomiled.API.Features.Core.Interfaces;
+    using Atomiled.API.Features.CustomStats;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Hazards;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.API.Interfaces;
+    using Atomiled.API.Structs;
     using Extensions;
     using Footprinting;
     using global::Scp914;
@@ -636,7 +636,7 @@ namespace Exiled.API.Features
         /// <summary>
         /// Gets a value indicating whether the player is reloading a weapon.
         /// </summary>
-        public bool IsReloading => CurrentItem is Firearm firearm && !firearm.IsReloading;
+        public bool IsReloading => CurrentItem is Firearm firearm && firearm.IsReloading;
 
         /// <summary>
         /// Gets a value indicating whether the player is aiming with a weapon.
@@ -1983,6 +1983,21 @@ namespace Exiled.API.Features
         }
 
         /// <summary>
+        /// Send an <see cref="global::Cassie.CassieAnnouncement"/> to the player.
+        /// </summary>
+        /// <param name="cassieAnnouncement">The <see cref="global::Cassie.CassieAnnouncement"/> to be broadcasted.</param>
+        /// <returns><see langword="0"/> if Cassie failed to play it or it's play nothing, otherwise it's return the duration of the annoucement.</returns>
+        public float CassieAnnouncement(global::Cassie.CassieAnnouncement cassieAnnouncement)
+        {
+            global::Cassie.CassieAnnouncementDispatcher.CurrentAnnouncement.OnStartedPlaying();
+            global::Cassie.CassieTtsPayload payload = cassieAnnouncement.Payload;
+            if (!global::Cassie.CassieTtsAnnouncer.TryPlay(payload, out float totalduration))
+                return 0;
+            payload.SendToHubsConditionally(x => x == ReferenceHub);
+            return totalduration;
+        }
+
+        /// <summary>
         /// Drops an item from the player's inventory.
         /// </summary>
         /// <param name="item">The <see cref="Item"/> to be dropped.</param>
@@ -2014,10 +2029,12 @@ namespace Exiled.API.Features
         /// <returns>Dropped item's <see cref="Pickup"/>.</returns>
         public Pickup DropHeldItem()
         {
-            if (CurrentItem is null)
+            Item item = CurrentItem;
+
+            if (item is null)
                 return null;
 
-            return DropItem(CurrentItem);
+            return DropItem(item);
         }
 
         /// <summary>

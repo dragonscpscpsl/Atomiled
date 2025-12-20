@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
 #pragma warning disable SA1402
 #pragma warning disable SA1649
@@ -13,10 +13,10 @@ namespace Exiled.Events.Patches.Generic
     using System.Linq;
     using System.Reflection.Emit;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pools;
 
     using HarmonyLib;
 
@@ -36,12 +36,12 @@ namespace Exiled.Events.Patches.Generic
     internal class AmmoDrainAutomatic
     {
         /// <summary>
-        /// Constructs instructions for modifying ammo by <see cref="Exiled.API.Features.Items.Firearm.AmmoDrain"/>.
+        /// Constructs instructions for modifying ammo by <see cref="Atomiled.API.Features.Items.Firearm.AmmoDrain"/>.
         /// </summary>
         /// <param name="firearm">Firearm local variable.</param>
         /// <param name="ammoDrain">AmmoDrain local variable..</param>
         /// <param name="continueLabel">Label for help.</param>
-        /// <returns>Instructions for <see cref="Exiled.API.Features.Items.Firearm.AmmoDrain"/>.</returns>
+        /// <returns>Instructions for <see cref="Atomiled.API.Features.Items.Firearm.AmmoDrain"/>.</returns>
         internal static IEnumerable<CodeInstruction> GetInstructions(LocalBuilder firearm, LocalBuilder ammoDrain, Label continueLabel)
         {
             // set ammoDrain to 1 by default

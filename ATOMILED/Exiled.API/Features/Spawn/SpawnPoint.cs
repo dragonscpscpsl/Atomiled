@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Spawn
+namespace Atomiled.API.Features.Spawn
 {
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using UnityEngine;
 
     /// <summary>

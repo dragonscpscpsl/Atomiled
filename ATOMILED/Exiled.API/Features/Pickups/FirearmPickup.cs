@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
     using System;
 
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using InventorySystem.Items;
     using InventorySystem.Items.Firearms;
     using InventorySystem.Items.Firearms.Attachments;

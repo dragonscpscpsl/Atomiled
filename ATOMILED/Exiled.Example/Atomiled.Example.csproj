@@ -12,7 +12,6 @@
     <Import Project="../EXILED.props" />
 
     <ItemGroup>
-        <ProjectReference Include="..\docs\docs.csproj" />
         <ProjectReference Include="..\Exiled.API\Atomiled.API.csproj" />
         <ProjectReference Include="..\Exiled.Events\Atomiled.Events.csproj" />
     </ItemGroup>

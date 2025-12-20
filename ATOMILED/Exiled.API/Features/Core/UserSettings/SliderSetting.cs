@@ -1,15 +1,15 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="SliderSetting.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.UserSettings
+namespace Atomiled.API.Features.Core.UserSettings
 {
     using System;
 
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using global::UserSettings.ServerSpecific;
 
     /// <summary>

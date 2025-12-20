@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.Generic
+namespace Atomiled.API.Features.Core.Generic
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
     using LiteNetLib.Utils;
 

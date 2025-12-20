@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Commands
+namespace Atomiled.CustomItems.Commands
 {
     using System;
     using System.Collections.Generic;
@@ -13,9 +13,9 @@ namespace Exiled.CustomItems.Commands
 
     using CommandSystem;
 
-    using Exiled.API.Features;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     using RemoteAdmin;
     using UnityStandardAssets.Effects;

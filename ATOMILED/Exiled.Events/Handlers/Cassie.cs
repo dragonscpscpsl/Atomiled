@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
-    using Exiled.Events.EventArgs.Cassie;
-    using Exiled.Events.Features;
+    using Atomiled.Events.EventArgs.Cassie;
+    using Atomiled.Events.Features;
 
     /// <summary>
     /// Cassie related events.

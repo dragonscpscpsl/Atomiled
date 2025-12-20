@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     using System;
 
-    using Exiled.API.Features.Doors;
+    using Atomiled.API.Features.Doors;
     using Features;
 
     /// <summary>

@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Roles
+namespace Atomiled.API.Features.Roles
 {
     using System;
 
     using Enums;
-    using Exiled.API.Features.Core;
-    using Exiled.API.Features.Spawn;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features.Core;
+    using Atomiled.API.Features.Spawn;
+    using Atomiled.API.Interfaces;
     using Extensions;
     using PlayerRoles;
     using PlayerRoles.PlayableScps.Scp049.Zombies;

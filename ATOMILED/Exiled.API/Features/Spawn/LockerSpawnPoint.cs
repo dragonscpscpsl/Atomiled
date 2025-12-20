@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Spawn
+namespace Atomiled.API.Features.Spawn
 {
     using System;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Lockers;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Lockers;
     using UnityEngine;
     using YamlDotNet.Serialization;
 

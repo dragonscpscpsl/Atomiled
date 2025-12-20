@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.Commands
+namespace Atomiled.CustomRoles.Commands
 {
     using System;
     using System.Collections.Generic;
@@ -13,10 +13,10 @@ namespace Exiled.CustomRoles.Commands
 
     using CommandSystem;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     using RemoteAdmin;
 

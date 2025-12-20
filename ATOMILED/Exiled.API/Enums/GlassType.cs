@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     using Features;
 
@@ -84,5 +84,10 @@ namespace Exiled.API.Enums
         /// Represents the window in <see cref="RoomType.EzGateA"/>.
         /// </summary>
         GateAArmory,
+
+        /// <summary>
+        /// Represents the window in <see cref="RoomType.HczLoadingBay"/>
+        /// </summary>
+        HczLoadingBay,
     }
 }

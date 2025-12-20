@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Warhead
+namespace Atomiled.Events.EventArgs.Warhead
 {
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     /// <summary>
     /// Contains all information before starting the warhead.

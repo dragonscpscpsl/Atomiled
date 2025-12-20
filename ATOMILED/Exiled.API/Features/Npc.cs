@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
 #nullable enable
     using System;
@@ -14,9 +14,9 @@ namespace Exiled.API.Features
 
     using CommandSystem;
     using CommandSystem.Commands.RemoteAdmin.Dummies;
-    using Exiled.API.Enums;
-    using Exiled.API.Features.CustomStats;
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.CustomStats;
+    using Atomiled.API.Features.Roles;
     using Footprinting;
     using MEC;
     using Mirror;

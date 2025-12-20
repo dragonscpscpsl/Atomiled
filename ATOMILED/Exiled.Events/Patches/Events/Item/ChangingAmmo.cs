@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Item
+namespace Atomiled.Events.Patches.Events.Item
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Item;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Item;
 
     using Handlers;
 

@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
 #pragma warning disable SA1313
 
     using HarmonyLib;

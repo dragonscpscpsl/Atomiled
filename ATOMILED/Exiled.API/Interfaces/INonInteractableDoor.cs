@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Interfaces
+namespace Atomiled.API.Interfaces
 {
     /// <summary>
     /// Represents an interface for all non-interactable doors.

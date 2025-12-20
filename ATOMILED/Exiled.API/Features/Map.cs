@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
 #pragma warning disable SA1401
 
@@ -17,11 +17,11 @@ namespace Exiled.API.Features
     using CommandSystem.Commands.RemoteAdmin.Cleanup;
     using Decals;
     using Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Hazards;
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Toys;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Hazards;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Toys;
     using InventorySystem;
     using InventorySystem.Items.Pickups;
     using InventorySystem.Items.ThrowableProjectiles;

@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Attributes
+namespace Atomiled.Events.Attributes
 {
     using System;
 
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// An attribute to contain data about an event patch.

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags.Features
+namespace Atomiled.CreditTags.Features
 {
     using Serialization;
 

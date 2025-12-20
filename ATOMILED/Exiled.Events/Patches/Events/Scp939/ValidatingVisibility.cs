@@ -1,24 +1,24 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="ValidatingVisibility.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp939
+namespace Atomiled.Events.Patches.Events.Scp939
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection.Emit;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
 
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp939;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp939;
     using HarmonyLib;
     using InventorySystem.Items;
     using Mirror;

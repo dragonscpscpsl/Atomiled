@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
@@ -13,8 +13,8 @@ namespace Exiled.Events.Patches.Events.Player
     using API.Features;
     using API.Features.Items;
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
 
     using HarmonyLib;
 

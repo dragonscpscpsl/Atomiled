@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     /// <summary>
     /// All RippleTriggers usable in the game.

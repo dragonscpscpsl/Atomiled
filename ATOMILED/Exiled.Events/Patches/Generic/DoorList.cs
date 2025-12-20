@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
 #pragma warning disable SA1313
 #pragma warning disable SA1402
@@ -15,8 +15,8 @@ namespace Exiled.Events.Patches.Generic
 
     using API.Features;
 
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Pools;
 
     using HarmonyLib;
 

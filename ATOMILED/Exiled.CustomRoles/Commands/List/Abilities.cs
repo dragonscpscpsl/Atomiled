@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.Commands.List
+namespace Atomiled.CustomRoles.Commands.List
 {
     using System;
     using System.Linq;
@@ -13,9 +13,9 @@ namespace Exiled.CustomRoles.Commands.List
 
     using CommandSystem;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     /// <inheritdoc />
     internal sealed class Abilities : ICommand

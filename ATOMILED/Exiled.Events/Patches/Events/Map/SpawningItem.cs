@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Map
+namespace Atomiled.Events.Patches.Events.Map
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;

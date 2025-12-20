@@ -1,11 +1,11 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="RemovingTarget.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp096
+namespace Atomiled.Events.Patches.Events.Scp096
 {
     using System;
     using System.Collections.Generic;
@@ -14,8 +14,8 @@ namespace Exiled.Events.Patches.Events.Scp096
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp096;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp096;
     using HarmonyLib;
     using PlayerRoles.PlayableScps.Scp096;
     using PlayerRoles.Subroutines;

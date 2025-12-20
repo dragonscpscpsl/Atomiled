@@ -1,17 +1,17 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="SingleUseKeycardRemainingUses.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Pools;
     using HarmonyLib;
     using InventorySystem.Items.Keycards;
 

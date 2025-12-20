@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
     using System;
 
@@ -13,9 +13,9 @@ namespace Exiled.Events.Handlers
 #pragma warning disable IDE0060
 #pragma warning disable SA1623 // Property summary documentation should match accessors
 
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.Events.EventArgs.Player;
 
-    using Exiled.Events.Features;
+    using Atomiled.Events.Features;
     using LabApi.Events.Arguments.PlayerEvents;
 
     /// <summary>

@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp0492
+namespace Atomiled.Events.Patches.Events.Scp0492
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp0492;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp0492;
     using HarmonyLib;
     using PlayerRoles.PlayableScps.Scp049;
     using PlayerRoles.PlayableScps.Scp049.Zombies;

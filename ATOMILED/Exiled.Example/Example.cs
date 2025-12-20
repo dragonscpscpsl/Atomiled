@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example
+namespace Atomiled.Example
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.Example.Events;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.Example.Events;
 
     /// <summary>
     /// The example plugin.
@@ -70,48 +70,48 @@ namespace Exiled.Example
             scp914Handler = new Scp914Handler();
             scp096Handler = new Scp096Handler();
 
-            Exiled.Events.Handlers.Server.WaitingForPlayers += serverHandler.OnWaitingForPlayers;
-            Exiled.Events.Handlers.Server.RoundStarted += serverHandler.OnRoundStarted;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers += serverHandler.OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Server.RoundStarted += serverHandler.OnRoundStarted;
 
-            Exiled.Events.Handlers.Player.Destroying += playerHandler.OnDestroying;
-            Exiled.Events.Handlers.Player.Spawned += playerHandler.OnSpawned;
-            Exiled.Events.Handlers.Player.Escaping += playerHandler.OnEscaping;
-            Exiled.Events.Handlers.Player.Hurting += playerHandler.OnHurting;
-            Exiled.Events.Handlers.Player.Dying += playerHandler.OnDying;
-            Exiled.Events.Handlers.Player.Died += playerHandler.OnDied;
-            Exiled.Events.Handlers.Player.ChangingRole += playerHandler.OnChangingRole;
-            Exiled.Events.Handlers.Player.ChangingItem += playerHandler.OnChangingItem;
-            Exiled.Events.Handlers.Player.UsingItem += playerHandler.OnUsingItem;
-            Exiled.Events.Handlers.Player.PickingUpItem += playerHandler.OnPickingUpItem;
-            Exiled.Events.Handlers.Player.DroppingItem += playerHandler.OnDroppingItem;
-            Exiled.Events.Handlers.Player.Verified += playerHandler.OnVerified;
-            Exiled.Events.Handlers.Player.FailingEscapePocketDimension += playerHandler.OnFailingEscapePocketDimension;
-            Exiled.Events.Handlers.Player.EscapingPocketDimension += playerHandler.OnEscapingPocketDimension;
-            Exiled.Events.Handlers.Player.UnlockingGenerator += playerHandler.OnUnlockingGenerator;
-            Exiled.Events.Handlers.Player.PreAuthenticating += playerHandler.OnPreAuthenticating;
-            Exiled.Events.Handlers.Player.Shooting += playerHandler.OnShooting;
-            Exiled.Events.Handlers.Player.ReloadingWeapon += playerHandler.OnReloading;
-            Exiled.Events.Handlers.Player.ReceivingEffect += playerHandler.OnReceivingEffect;
+            Atomiled.Events.Handlers.Player.Destroying += playerHandler.OnDestroying;
+            Atomiled.Events.Handlers.Player.Spawned += playerHandler.OnSpawned;
+            Atomiled.Events.Handlers.Player.Escaping += playerHandler.OnEscaping;
+            Atomiled.Events.Handlers.Player.Hurting += playerHandler.OnHurting;
+            Atomiled.Events.Handlers.Player.Dying += playerHandler.OnDying;
+            Atomiled.Events.Handlers.Player.Died += playerHandler.OnDied;
+            Atomiled.Events.Handlers.Player.ChangingRole += playerHandler.OnChangingRole;
+            Atomiled.Events.Handlers.Player.ChangingItem += playerHandler.OnChangingItem;
+            Atomiled.Events.Handlers.Player.UsingItem += playerHandler.OnUsingItem;
+            Atomiled.Events.Handlers.Player.PickingUpItem += playerHandler.OnPickingUpItem;
+            Atomiled.Events.Handlers.Player.DroppingItem += playerHandler.OnDroppingItem;
+            Atomiled.Events.Handlers.Player.Verified += playerHandler.OnVerified;
+            Atomiled.Events.Handlers.Player.FailingEscapePocketDimension += playerHandler.OnFailingEscapePocketDimension;
+            Atomiled.Events.Handlers.Player.EscapingPocketDimension += playerHandler.OnEscapingPocketDimension;
+            Atomiled.Events.Handlers.Player.UnlockingGenerator += playerHandler.OnUnlockingGenerator;
+            Atomiled.Events.Handlers.Player.PreAuthenticating += playerHandler.OnPreAuthenticating;
+            Atomiled.Events.Handlers.Player.Shooting += playerHandler.OnShooting;
+            Atomiled.Events.Handlers.Player.ReloadingWeapon += playerHandler.OnReloading;
+            Atomiled.Events.Handlers.Player.ReceivingEffect += playerHandler.OnReceivingEffect;
 
-            Exiled.Events.Handlers.Warhead.Stopping += warheadHandler.OnStopping;
-            Exiled.Events.Handlers.Warhead.Starting += warheadHandler.OnStarting;
+            Atomiled.Events.Handlers.Warhead.Stopping += warheadHandler.OnStopping;
+            Atomiled.Events.Handlers.Warhead.Starting += warheadHandler.OnStarting;
 
-            Exiled.Events.Handlers.Scp106.Teleporting += playerHandler.OnTeleporting;
+            Atomiled.Events.Handlers.Scp106.Teleporting += playerHandler.OnTeleporting;
 
-            Exiled.Events.Handlers.Scp914.Activating += playerHandler.OnActivating;
-            Exiled.Events.Handlers.Scp914.ChangingKnobSetting += playerHandler.OnChangingKnobSetting;
-            Exiled.Events.Handlers.Scp914.UpgradingPlayer += playerHandler.OnUpgradingPlayer;
+            Atomiled.Events.Handlers.Scp914.Activating += playerHandler.OnActivating;
+            Atomiled.Events.Handlers.Scp914.ChangingKnobSetting += playerHandler.OnChangingKnobSetting;
+            Atomiled.Events.Handlers.Scp914.UpgradingPlayer += playerHandler.OnUpgradingPlayer;
 
-            Exiled.Events.Handlers.Map.ExplodingGrenade += mapHandler.OnExplodingGrenade;
-            Exiled.Events.Handlers.Map.GeneratorActivating += mapHandler.OnGeneratorActivated;
+            Atomiled.Events.Handlers.Map.ExplodingGrenade += mapHandler.OnExplodingGrenade;
+            Atomiled.Events.Handlers.Map.GeneratorActivating += mapHandler.OnGeneratorActivated;
 
-            Exiled.Events.Handlers.Item.ChangingAmmo += itemHandler.OnChangingAmmo;
-            Exiled.Events.Handlers.Item.ChangingAttachments += itemHandler.OnChangingAttachments;
-            Exiled.Events.Handlers.Item.ReceivingPreference += itemHandler.OnReceivingPreference;
+            Atomiled.Events.Handlers.Item.ChangingAmmo += itemHandler.OnChangingAmmo;
+            Atomiled.Events.Handlers.Item.ChangingAttachments += itemHandler.OnChangingAttachments;
+            Atomiled.Events.Handlers.Item.ReceivingPreference += itemHandler.OnReceivingPreference;
 
-            Exiled.Events.Handlers.Scp914.UpgradingPickup += scp914Handler.OnUpgradingItem;
+            Atomiled.Events.Handlers.Scp914.UpgradingPickup += scp914Handler.OnUpgradingItem;
 
-            Exiled.Events.Handlers.Scp096.AddingTarget += scp096Handler.OnAddingTarget;
+            Atomiled.Events.Handlers.Scp096.AddingTarget += scp096Handler.OnAddingTarget;
         }
 
         /// <summary>
@@ -119,39 +119,39 @@ namespace Exiled.Example
         /// </summary>
         private void UnregisterEvents()
         {
-            Exiled.Events.Handlers.Server.WaitingForPlayers -= serverHandler.OnWaitingForPlayers;
-            Exiled.Events.Handlers.Server.RoundStarted -= serverHandler.OnRoundStarted;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers -= serverHandler.OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Server.RoundStarted -= serverHandler.OnRoundStarted;
 
-            Exiled.Events.Handlers.Player.Destroying -= playerHandler.OnDestroying;
-            Exiled.Events.Handlers.Player.Dying -= playerHandler.OnDying;
-            Exiled.Events.Handlers.Player.Died -= playerHandler.OnDied;
-            Exiled.Events.Handlers.Player.ChangingRole -= playerHandler.OnChangingRole;
-            Exiled.Events.Handlers.Player.ChangingItem -= playerHandler.OnChangingItem;
-            Exiled.Events.Handlers.Player.PickingUpItem += playerHandler.OnPickingUpItem;
-            Exiled.Events.Handlers.Player.Verified -= playerHandler.OnVerified;
-            Exiled.Events.Handlers.Player.FailingEscapePocketDimension -= playerHandler.OnFailingEscapePocketDimension;
-            Exiled.Events.Handlers.Player.EscapingPocketDimension -= playerHandler.OnEscapingPocketDimension;
-            Exiled.Events.Handlers.Player.UnlockingGenerator -= playerHandler.OnUnlockingGenerator;
-            Exiled.Events.Handlers.Player.PreAuthenticating -= playerHandler.OnPreAuthenticating;
+            Atomiled.Events.Handlers.Player.Destroying -= playerHandler.OnDestroying;
+            Atomiled.Events.Handlers.Player.Dying -= playerHandler.OnDying;
+            Atomiled.Events.Handlers.Player.Died -= playerHandler.OnDied;
+            Atomiled.Events.Handlers.Player.ChangingRole -= playerHandler.OnChangingRole;
+            Atomiled.Events.Handlers.Player.ChangingItem -= playerHandler.OnChangingItem;
+            Atomiled.Events.Handlers.Player.PickingUpItem += playerHandler.OnPickingUpItem;
+            Atomiled.Events.Handlers.Player.Verified -= playerHandler.OnVerified;
+            Atomiled.Events.Handlers.Player.FailingEscapePocketDimension -= playerHandler.OnFailingEscapePocketDimension;
+            Atomiled.Events.Handlers.Player.EscapingPocketDimension -= playerHandler.OnEscapingPocketDimension;
+            Atomiled.Events.Handlers.Player.UnlockingGenerator -= playerHandler.OnUnlockingGenerator;
+            Atomiled.Events.Handlers.Player.PreAuthenticating -= playerHandler.OnPreAuthenticating;
 
-            Exiled.Events.Handlers.Warhead.Stopping -= warheadHandler.OnStopping;
-            Exiled.Events.Handlers.Warhead.Starting -= warheadHandler.OnStarting;
+            Atomiled.Events.Handlers.Warhead.Stopping -= warheadHandler.OnStopping;
+            Atomiled.Events.Handlers.Warhead.Starting -= warheadHandler.OnStarting;
 
-            Exiled.Events.Handlers.Scp106.Teleporting -= playerHandler.OnTeleporting;
+            Atomiled.Events.Handlers.Scp106.Teleporting -= playerHandler.OnTeleporting;
 
-            Exiled.Events.Handlers.Scp914.Activating -= playerHandler.OnActivating;
-            Exiled.Events.Handlers.Scp914.ChangingKnobSetting -= playerHandler.OnChangingKnobSetting;
+            Atomiled.Events.Handlers.Scp914.Activating -= playerHandler.OnActivating;
+            Atomiled.Events.Handlers.Scp914.ChangingKnobSetting -= playerHandler.OnChangingKnobSetting;
 
-            Exiled.Events.Handlers.Map.ExplodingGrenade -= mapHandler.OnExplodingGrenade;
-            Exiled.Events.Handlers.Map.GeneratorActivating -= mapHandler.OnGeneratorActivated;
+            Atomiled.Events.Handlers.Map.ExplodingGrenade -= mapHandler.OnExplodingGrenade;
+            Atomiled.Events.Handlers.Map.GeneratorActivating -= mapHandler.OnGeneratorActivated;
 
-            Exiled.Events.Handlers.Item.ChangingAmmo -= itemHandler.OnChangingAmmo;
-            Exiled.Events.Handlers.Item.ChangingAttachments -= itemHandler.OnChangingAttachments;
-            Exiled.Events.Handlers.Item.ReceivingPreference -= itemHandler.OnReceivingPreference;
+            Atomiled.Events.Handlers.Item.ChangingAmmo -= itemHandler.OnChangingAmmo;
+            Atomiled.Events.Handlers.Item.ChangingAttachments -= itemHandler.OnChangingAttachments;
+            Atomiled.Events.Handlers.Item.ReceivingPreference -= itemHandler.OnReceivingPreference;
 
-            Exiled.Events.Handlers.Scp914.UpgradingPickup -= scp914Handler.OnUpgradingItem;
+            Atomiled.Events.Handlers.Scp914.UpgradingPickup -= scp914Handler.OnUpgradingItem;
 
-            Exiled.Events.Handlers.Scp096.AddingTarget -= scp096Handler.OnAddingTarget;
+            Atomiled.Events.Handlers.Scp096.AddingTarget -= scp096Handler.OnAddingTarget;
 
             serverHandler = null;
             playerHandler = null;

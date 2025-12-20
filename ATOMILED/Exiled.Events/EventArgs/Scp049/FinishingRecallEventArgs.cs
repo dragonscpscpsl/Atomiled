@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp049
+namespace Atomiled.Events.EventArgs.Scp049
 {
     using API.Features;
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Features.Roles;
     using Interfaces;
     using PlayerRoles.Ragdolls;
 

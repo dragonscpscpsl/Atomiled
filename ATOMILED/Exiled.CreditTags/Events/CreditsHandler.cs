@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags.Events
+namespace Atomiled.CreditTags.Events
 {
-    using Exiled.CreditTags.Features;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.CreditTags.Features;
+    using Atomiled.Events.EventArgs.Player;
     using MEC;
 
     using static CreditTags;

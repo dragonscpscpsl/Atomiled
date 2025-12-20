@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp096
+namespace Atomiled.Events.EventArgs.Scp096
 {
     using API.Features;
     using API.Features.Doors;

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Attributes
+namespace Atomiled.API.Features.Attributes
 {
     using System;
 

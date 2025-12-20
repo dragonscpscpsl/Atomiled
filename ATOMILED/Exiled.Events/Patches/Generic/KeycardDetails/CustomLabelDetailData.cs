@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic.KeycardDetails
+namespace Atomiled.Events.Patches.Generic.KeycardDetails
 {
-    using Exiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Items.Keycards;
     using HarmonyLib;
     using InventorySystem.Items.Keycards;
 

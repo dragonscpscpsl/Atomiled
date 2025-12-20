@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features
+namespace Atomiled.CustomRoles.API.Features
 {
     using System;
     using System.Collections.Generic;
@@ -13,18 +13,18 @@ namespace Exiled.CustomRoles.API.Features
     using System.Reflection;
     using System.Text;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Attributes;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Roles;
-    using Exiled.API.Features.Spawn;
-    using Exiled.API.Interfaces;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Events.EventArgs.Player;
-    using Exiled.Loader;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Attributes;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.API.Features.Spawn;
+    using Atomiled.API.Interfaces;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Events.EventArgs.Player;
+    using Atomiled.Loader;
     using InventorySystem.Configs;
     using MEC;
     using PlayerRoles;
@@ -949,10 +949,10 @@ namespace Exiled.CustomRoles.API.Features
         protected virtual void SubscribeEvents()
         {
             Log.Debug($"{Name}: Loading events.");
-            Exiled.Events.Handlers.Player.ChangingNickname += OnInternalChangingNickname;
-            Exiled.Events.Handlers.Player.ChangingRole += OnInternalChangingRole;
-            Exiled.Events.Handlers.Player.SpawningRagdoll += OnSpawningRagdoll;
-            Exiled.Events.Handlers.Player.Destroying += OnDestroying;
+            Atomiled.Events.Handlers.Player.ChangingNickname += OnInternalChangingNickname;
+            Atomiled.Events.Handlers.Player.ChangingRole += OnInternalChangingRole;
+            Atomiled.Events.Handlers.Player.SpawningRagdoll += OnSpawningRagdoll;
+            Atomiled.Events.Handlers.Player.Destroying += OnDestroying;
         }
 
         /// <summary>
@@ -964,10 +964,10 @@ namespace Exiled.CustomRoles.API.Features
                 RemoveRole(player);
 
             Log.Debug($"{Name}: Unloading events.");
-            Exiled.Events.Handlers.Player.ChangingNickname -= OnInternalChangingNickname;
-            Exiled.Events.Handlers.Player.ChangingRole -= OnInternalChangingRole;
-            Exiled.Events.Handlers.Player.SpawningRagdoll -= OnSpawningRagdoll;
-            Exiled.Events.Handlers.Player.Destroying -= OnDestroying;
+            Atomiled.Events.Handlers.Player.ChangingNickname -= OnInternalChangingNickname;
+            Atomiled.Events.Handlers.Player.ChangingRole -= OnInternalChangingRole;
+            Atomiled.Events.Handlers.Player.SpawningRagdoll -= OnSpawningRagdoll;
+            Atomiled.Events.Handlers.Player.Destroying -= OnDestroying;
         }
 
         /// <summary>

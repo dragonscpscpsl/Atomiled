@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Roles
+namespace Atomiled.API.Features.Roles
 {
     using System;
     using System.Collections.Generic;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
     using PlayerRoles;
     using PlayerRoles.FirstPersonControl;
     using PlayerRoles.FirstPersonControl.Thirdperson;
@@ -299,6 +299,30 @@ namespace Exiled.API.Features.Roles
         /// Gets a <see cref="SpectatableModuleBase"/> for this role.
         /// </summary>
         public SpectatableModuleBase SpectatableModuleBase => FirstPersonController.SpectatorModule;
+
+        /// <summary>
+        /// Tries to get the <see cref="Transform"/> of a specified <see cref="HumanBodyBones"/> bone.
+        /// </summary>
+        /// <param name="bone">The bone to get the <see cref="Transform"/> of.</param>
+        /// <param name="boneTransform">
+        /// When this method returns, contains the <see cref="Transform"/> of the specified bone, if found;
+        /// otherwise, <c>null</c>.
+        /// </param>
+        /// <returns><c>true</c> if the bone transform was found; otherwise, <c>false</c>.</returns>
+        public bool TryGetBoneTransform(HumanBodyBones bone, out Transform boneTransform)
+        {
+            boneTransform = null;
+
+            if (Model is not AnimatedCharacterModel animatedModel)
+                return false;
+
+            Animator animator = animatedModel.Animator;
+            if (animator == null || animator.avatar == null || !animator.avatar.isValid || !animator.avatar.isHuman)
+                return false;
+
+            boneTransform = animator.GetBoneTransform(bone);
+            return boneTransform != null;
+        }
 
         /// <summary>
         /// Resets the <see cref="Player"/>'s stamina.

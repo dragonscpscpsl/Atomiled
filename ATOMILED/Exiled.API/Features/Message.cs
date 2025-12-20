@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System.ComponentModel;
 
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
 
     /// <summary>
     /// A useful class for saving type-selective message configurations.

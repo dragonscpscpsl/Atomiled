@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
     using CustomPlayerEffects;
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
     using HarmonyLib;
     using RelativePositioning;
     using UnityEngine;

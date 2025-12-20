@@ -5,18 +5,18 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp559
+namespace Atomiled.Events.EventArgs.Scp559
 {
     using System;
 
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Interfaces;
     using UnityEngine;
 
     /// <summary>
     /// Contains all information before SCP-559 spawns.
     /// </summary>
-    [Obsolete("Only availaible for Christmas and AprilFools.")]
+    // [Obsolete("Only availaible for Christmas and AprilFools.")]
     public class SpawningEventArgs : IDeniableEvent, IScp559Event
     {
         /// <summary>

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System.ComponentModel;
 

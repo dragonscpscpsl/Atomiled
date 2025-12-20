@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Interfaces
+namespace Atomiled.Events.EventArgs.Interfaces
 {
     using API.Features.Items;
 

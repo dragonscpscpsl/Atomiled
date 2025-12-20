@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups.Projectiles
+namespace Atomiled.API.Features.Pickups.Projectiles
 {
     using System;
     using System.Reflection;
 
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using HarmonyLib;
 
     using InventorySystem.Items.ThrowableProjectiles;

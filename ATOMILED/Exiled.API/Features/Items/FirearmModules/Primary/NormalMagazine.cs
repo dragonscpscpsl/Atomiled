@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.FirearmModules.Primary
+namespace Atomiled.API.Features.Items.FirearmModules.Primary
 {
     using System;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
 
     using InventorySystem.Items.Firearms.Modules;
 
@@ -79,7 +79,7 @@ namespace Exiled.API.Features.Items.FirearmModules.Primary
         }
 
         /// <summary>
-        /// Removes magazine from current <see cref="Exiled.API.Features.Items.Firearm"/>.
+        /// Removes magazine from current <see cref="Atomiled.API.Features.Items.Firearm"/>.
         /// </summary>
         /// <remarks>
         /// Affects on actual ammo count.
@@ -88,7 +88,7 @@ namespace Exiled.API.Features.Items.FirearmModules.Primary
         public void RemoveMagazine() => MagazineModule.ServerRemoveMagazine();
 
         /// <summary>
-        /// Inserts current magazine from current <see cref="Exiled.API.Features.Items.Firearm"/>.
+        /// Inserts current magazine from current <see cref="Atomiled.API.Features.Items.Firearm"/>.
         /// </summary>
         public void InsertMagazine() => MagazineModule.ServerInsertEmptyMagazine();
 

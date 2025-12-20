@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.FirearmModules.Barrel
+namespace Atomiled.API.Features.Items.FirearmModules.Barrel
 {
     using InventorySystem.Items.Firearms.Modules;
 

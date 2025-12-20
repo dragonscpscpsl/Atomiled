@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.GHApi
+namespace Atomiled.Loader.GHApi
 {
     using System.IO;
     using System.Linq;
     using System.Net.Http;
     using System.Threading.Tasks;
 
-    using Exiled.Loader.GHApi.Models;
-    using Exiled.Loader.GHApi.Settings;
+    using Atomiled.Loader.GHApi.Models;
+    using Atomiled.Loader.GHApi.Settings;
 
     using Utf8Json;
 

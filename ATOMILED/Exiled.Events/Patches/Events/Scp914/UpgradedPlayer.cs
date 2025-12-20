@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp914
+namespace Atomiled.Events.Patches.Events.Scp914
 {
     using System.CodeDom;
     using System.Collections.Generic;
@@ -14,8 +14,8 @@ namespace Exiled.Events.Patches.Events.Scp914
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp914;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp914;
     using global::Scp914;
     using HarmonyLib;
     using Mono.Cecil.Cil;

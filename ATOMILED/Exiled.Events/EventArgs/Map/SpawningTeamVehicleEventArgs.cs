@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Respawning;
     using Respawning.Waves;
 

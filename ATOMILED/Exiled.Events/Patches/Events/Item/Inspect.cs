@@ -1,20 +1,20 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="Inspect.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Item
+namespace Atomiled.Events.Patches.Events.Item
 {
 #pragma warning disable SA1402
 #pragma warning disable SA1649
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Item;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Item;
     using HarmonyLib;
     using InventorySystem.Items.Firearms.Modules;
     using InventorySystem.Items.Jailbird;

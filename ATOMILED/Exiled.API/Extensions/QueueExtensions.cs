@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using System;
     using System.Collections.Generic;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
     /// <summary>
     /// <see cref="Queue{T}"/> extensions.

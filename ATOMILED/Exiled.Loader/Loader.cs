@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.Collections.Generic;
@@ -20,10 +20,9 @@ namespace Exiled.Loader
     using API.Enums;
     using API.Interfaces;
 
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
     using CommandSystem.Commands.Shared;
-
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
     using Features;
     using Features.Configs;
     using Features.Configs.CustomConverters;
@@ -134,7 +133,7 @@ namespace Exiled.Loader
         public static void LoadPlugins()
         {
             File.Delete(Path.Combine(Paths.Plugins, "Atomiled.Updater.dll"));
-            File.Delete(Path.Combine(Paths.Dependencies, "Atomiled.dll"));
+            File.Delete(Path.Combine(Paths.Dependencies, "Atomiled.API.dll"));
 
             LoadPluginsFromDirectory();
             LoadPluginsFromDirectory(Server.Port.ToString());
@@ -216,7 +215,7 @@ namespace Exiled.Loader
 
                     Log.Debug($"Instantiated type {type.FullName}");
 
-                    if (CheckPluginRequiredExiledVersion(plugin))
+                    if (CheckPluginRequiredAtomiledVersion(plugin))
                         continue;
 
                     return plugin;
@@ -305,6 +304,13 @@ namespace Exiled.Loader
                 try
                 {
                     if (plugin.Name.StartsWith("Exiled") && plugin.Config.IsEnabled)
+                    {
+                        plugin.OnEnabled();
+                        plugin.OnRegisteringCommands();
+                        toLoad.Remove(plugin);
+                    }
+
+                    if (plugin.Name.StartsWith("Atomiled") && plugin.Config.IsEnabled)
                     {
                         plugin.OnEnabled();
                         plugin.OnRegisteringCommands();
@@ -439,7 +445,7 @@ namespace Exiled.Loader
         public static IPlugin<IConfig> GetPlugin(string args) => Plugins.FirstOrDefault(x => x.Name == args || x.Prefix == args);
 
         /// <summary>
-        /// Gets a LabAPI plugin ATOMILED loaded by its name.
+        /// Gets a LabAPI plugin Atomiled loaded by its name.
         /// </summary>
         /// <param name="args">The name of the plugin.</param>
         /// <returns>The desired plugin, null if not found.</returns>
@@ -449,7 +455,7 @@ namespace Exiled.Loader
         /// <summary>
         /// Runs the plugin manager, by loading all dependencies, plugins, configs and then enables all plugins.
         /// </summary>
-        /// <param name="dependencies">The dependencies that could have been loaded by ATOMILED.Bootstrap.</param>
+        /// <param name="dependencies">The dependencies that could have been loaded by Atomiled.Bootstrap.</param>
         /// <returns>A MEC <see cref="IEnumerator{T}"/>.</returns>
         public IEnumerator<float> Run(Assembly[] dependencies = null)
         {
@@ -467,7 +473,7 @@ namespace Exiled.Loader
                     updater.CheckUpdate();
                 })
                 {
-                    Name = "ATOMILED with exiled upddater Updater",
+                    Name = "Atomiled Updater",
                     Priority = ThreadPriority.AboveNormal,
                 };
 
@@ -492,10 +498,10 @@ namespace Exiled.Loader
                     AutoUpdateFiles.RequiredSCPSLVersion.Major,
                     AutoUpdateFiles.RequiredSCPSLVersion.Minor,
                     AutoUpdateFiles.RequiredSCPSLVersion.Revision)
-                            ? "SCP: SL is outdated. Update SCP: SL Dedicated Server to required version or downgrade ATOMILED."
-                            : "ATOMILED is outdated, a new version will be installed automatically as soon as it's available.";
+                            ? "SCP: SL is outdated. Update SCP: SL Dedicated Server to required version or downgrade Atomiled."
+                            : "Atomiled is outdated, a new version will be installed automatically as soon as it's available.";
 
-                ServerConsole.AddLog($"{messageText}\nSCP:SL version: {GameCore.Version.VersionString} ATOMILED Supported Version: {AutoUpdateFiles.RequiredSCPSLVersion}", ConsoleColor.DarkRed);
+                ServerConsole.AddLog($"{messageText}\nSCP:SL version: {GameCore.Version.VersionString} Atomiled Supported Version: {AutoUpdateFiles.RequiredSCPSLVersion}", ConsoleColor.DarkRed);
                 yield break;
             }
 
@@ -514,7 +520,8 @@ namespace Exiled.Loader
             BuildInfoCommand.ModDescription = string.Join(
                 "\n",
                 AppDomain.CurrentDomain.GetAssemblies()
-                    .Where(a => a.FullName.StartsWith("ATOMILED.", StringComparison.OrdinalIgnoreCase))
+                    .Where(a => a.FullName.StartsWith("Exiled.", StringComparison.OrdinalIgnoreCase))
+                    .Where(a => a.FullName.StartsWith("Atomiled.", StringComparison.OrdinalIgnoreCase))
                     .Select(a => $"{a.GetName().Name} - Version {a.GetName().Version.ToString(3)}"));
 
             ServerConsole.AddLog($"Welcome to {LoaderMessages.GetMessage()}", ConsoleColor.Green);
@@ -543,25 +550,31 @@ namespace Exiled.Loader
             return false;
         }
 
-        private static bool CheckPluginRequiredExiledVersion(IPlugin<IConfig> plugin)
+        private static bool CheckPluginRequiredAtomiledVersion(IPlugin<IConfig> plugin)
         {
             if (plugin.IgnoreRequiredVersionCheck)
                 return false;
 
             Version requiredVersion = plugin.RequiredExiledVersion;
             Version actualVersion = Version;
+            Version requiredatomloaderVersion = plugin.RequiredAtomiledVersion;
+            Version actualatomloaderVersion = Version;
 
             // Check Major version
             // It's increased when an incompatible API change was made
             if (requiredVersion.Major != actualVersion.Major)
             {
                 // Assume that if the Required Major version is greater than the Actual Major version,
-                // ATOMILED is outdated
+                // Atomiled is outdated
+                // Exiled is outdated
                 if (requiredVersion.Major > actualVersion.Major)
                 {
                     Log.Error(
-                        $"You're running an older version of ATOMILED ({Version.ToString(3)})! {plugin.Name} won't be loaded! " +
+                        $"You're running an older version of Exiled ({Version.ToString(3)})! {plugin.Name} won't be loaded! " +
                         $"Required version to load it: {plugin.RequiredExiledVersion.ToString(3)}");
+                    Log.Error(
+                        $"You're running an older version of Atomiled ({Version.ToString(3)})! {plugin.Name} won't be loaded! " +
+                        $"Required version to load it: {plugin.RequiredAtomiledVersion.ToString(3)}");
 
                     return true;
                 }

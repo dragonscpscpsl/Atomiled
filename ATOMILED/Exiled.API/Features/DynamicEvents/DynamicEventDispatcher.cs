@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.DynamicEvents
+namespace Atomiled.API.Features.DynamicEvents
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features.Core;
+    using Atomiled.API.Features.Core;
 
     /// <summary>
     /// The class which handles delegates dynamically acting as multicast listener.

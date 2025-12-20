@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Map;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Map;
 
     /// <summary>
     /// Handles <see cref="Map.ChangedIntoGrenade"/> event.

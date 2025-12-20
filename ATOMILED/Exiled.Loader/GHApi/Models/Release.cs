@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.GHApi.Models
+namespace Atomiled.Loader.GHApi.Models
 {
     using System;
     using System.Runtime.Serialization;

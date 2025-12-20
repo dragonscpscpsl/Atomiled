@@ -5,26 +5,26 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.Features
+namespace Atomiled.CustomItems.API.Features
 {
     using System;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.DamageHandlers;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Item;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.DamageHandlers;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Item;
+    using Atomiled.Events.EventArgs.Player;
     using InventorySystem.Items.Firearms.Attachments;
     using InventorySystem.Items.Firearms.Attachments.Components;
     using InventorySystem.Items.Firearms.Modules;
     using UnityEngine;
 
-    using Firearm = Exiled.API.Features.Items.Firearm;
-    using Player = Exiled.API.Features.Player;
+    using Firearm = Atomiled.API.Features.Items.Firearm;
+    using Player = Atomiled.API.Features.Player;
 
     /// <summary>
     /// The Custom Weapon base class.
@@ -146,12 +146,12 @@ namespace Exiled.CustomItems.API.Features
         /// <inheritdoc/>
         protected override void SubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.ReloadingWeapon += OnInternalReloading;
-            Exiled.Events.Handlers.Player.ReloadedWeapon += OnInternalReloaded;
-            Exiled.Events.Handlers.Player.Shooting += OnInternalShooting;
-            Exiled.Events.Handlers.Player.Shot += OnInternalShot;
-            Exiled.Events.Handlers.Player.Hurting += OnInternalHurting;
-            Exiled.Events.Handlers.Item.ChangingAttachments += OnInternalChangingAttachment;
+            Atomiled.Events.Handlers.Player.ReloadingWeapon += OnInternalReloading;
+            Atomiled.Events.Handlers.Player.ReloadedWeapon += OnInternalReloaded;
+            Atomiled.Events.Handlers.Player.Shooting += OnInternalShooting;
+            Atomiled.Events.Handlers.Player.Shot += OnInternalShot;
+            Atomiled.Events.Handlers.Player.Hurting += OnInternalHurting;
+            Atomiled.Events.Handlers.Item.ChangingAttachments += OnInternalChangingAttachment;
 
             base.SubscribeEvents();
         }
@@ -159,12 +159,12 @@ namespace Exiled.CustomItems.API.Features
         /// <inheritdoc/>
         protected override void UnsubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.ReloadingWeapon -= OnInternalReloading;
-            Exiled.Events.Handlers.Player.ReloadedWeapon -= OnInternalReloaded;
-            Exiled.Events.Handlers.Player.Shooting -= OnInternalShooting;
-            Exiled.Events.Handlers.Player.Shot -= OnInternalShot;
-            Exiled.Events.Handlers.Player.Hurting -= OnInternalHurting;
-            Exiled.Events.Handlers.Item.ChangingAttachments -= OnInternalChangingAttachment;
+            Atomiled.Events.Handlers.Player.ReloadingWeapon -= OnInternalReloading;
+            Atomiled.Events.Handlers.Player.ReloadedWeapon -= OnInternalReloaded;
+            Atomiled.Events.Handlers.Player.Shooting -= OnInternalShooting;
+            Atomiled.Events.Handlers.Player.Shot -= OnInternalShot;
+            Atomiled.Events.Handlers.Player.Hurting -= OnInternalHurting;
+            Atomiled.Events.Handlers.Item.ChangingAttachments -= OnInternalChangingAttachment;
 
             base.UnsubscribeEvents();
         }

@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Hazards
+namespace Atomiled.API.Features.Hazards
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Core;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Core;
+    using Atomiled.API.Interfaces;
     using global::Hazards;
     using PlayerRoles.PlayableScps.Scp939;
     using UnityEngine;

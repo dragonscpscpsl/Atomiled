@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features.Parsers
+namespace Atomiled.CustomRoles.API.Features.Parsers
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
 
-    using Exiled.API.Features;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.CustomRoles.API.Features.Extensions;
-    using Exiled.CustomRoles.API.Features.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.CustomRoles.API.Features.Extensions;
+    using Atomiled.CustomRoles.API.Features.Interfaces;
 
     using YamlDotNet.Core.Events;
     using YamlDotNet.Serialization;

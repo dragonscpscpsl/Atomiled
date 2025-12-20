@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API
+namespace Atomiled.CustomRoles.API
 {
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Linq;
 
-    using Exiled.API.Features;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.CustomRoles.API.Features.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.CustomRoles.API.Features.Enums;
 
     using Utils.NonAllocLINQ;
 

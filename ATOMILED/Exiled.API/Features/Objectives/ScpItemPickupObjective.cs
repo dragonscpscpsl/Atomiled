@@ -1,16 +1,16 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="ScpItemPickupObjective.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Objectives
+namespace Atomiled.API.Features.Objectives
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Interfaces;
     using Respawning.Objectives;
     using UnityEngine;
 

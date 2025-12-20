@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Waves;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Waves;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Respawning.Waves;
 
     /// <summary>

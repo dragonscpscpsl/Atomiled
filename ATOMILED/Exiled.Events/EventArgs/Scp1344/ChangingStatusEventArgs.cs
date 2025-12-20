@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp1344
+namespace Atomiled.Events.EventArgs.Scp1344
 {
-    using Exiled.API.Features.Items;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Items;
+    using Atomiled.Events.EventArgs.Interfaces;
     using InventorySystem.Items;
     using InventorySystem.Items.Usables.Scp1344;
 
@@ -51,7 +51,7 @@ namespace Exiled.Events.EventArgs.Scp1344
         /// <summary>
         /// Gets the player in owner of the item.
         /// </summary>
-        public Exiled.API.Features.Player Player { get; }
+        public Atomiled.API.Features.Player Player { get; }
 
         /// <summary>
         /// Gets Scp1344 item.

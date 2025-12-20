@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     /// <summary>
     /// List of <see cref="Message"/> types.

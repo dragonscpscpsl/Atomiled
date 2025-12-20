@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp106
+namespace Atomiled.Events.EventArgs.Scp106
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information before SCP-106 attacks a player.

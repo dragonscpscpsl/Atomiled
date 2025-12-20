@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Events
+namespace Atomiled.CustomItems.Events
 {
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Events.EventArgs.Player;
 
     /// <summary>
     /// Handles Player events for the CustomItem API.

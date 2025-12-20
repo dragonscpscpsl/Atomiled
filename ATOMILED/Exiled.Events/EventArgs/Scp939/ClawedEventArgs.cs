@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp939
+namespace Atomiled.Events.EventArgs.Scp939
 {
     using API.Features;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information after SCP-939 attacks.

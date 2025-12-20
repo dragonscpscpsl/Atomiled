@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp0492
+namespace Atomiled.Events.EventArgs.Scp0492
 {
     using API.Features;
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Features.Roles;
     using Interfaces;
 
     using PlayerRoles.PlayableScps.Scp049.Zombies;

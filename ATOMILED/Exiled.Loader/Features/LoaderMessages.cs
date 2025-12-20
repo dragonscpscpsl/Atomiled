@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Features
+namespace Atomiled.Loader.Features
 {
     using System;
 
     /// <summary>
-    /// A class that contains the different EXILED loader messages.
+    /// A class that contains the different ATOMILED loader messages.
     /// </summary>
     public static class LoaderMessages
     {
@@ -29,22 +29,24 @@ namespace Exiled.Loader.Features
         /// Gets the Easter egg loader message.
         /// </summary>
         public static string EasterEgg => @"
- █████  ████████  ██████  ███    ███ ██  ██████ 
-██   ██    ██    ██    ██ ████  ████ ██ ██      
-███████    ██    ██    ██ ██ ████ ██ ██ ██      
-██   ██    ██    ██    ██ ██  ██  ██ ██ ██      
-██   ██    ██     ██████  ██      ██ ██  ██████ 
-                                               ";
+ █████  ████████  ██████  ███    ███ ██  ██████  |  ██       ██████  ██      
+██   ██    ██    ██    ██ ████  ████ ██ ██       |  ██      ██    ██ ██      
+███████    ██    ██    ██ ██ ████ ██ ██ ██       |  ██      ██    ██ ██      
+██   ██    ██    ██    ██ ██  ██  ██ ██ ██       |  ██      ██    ██ ██      
+██   ██    ██     ██████  ██      ██ ██  ██████  |  ███████  ██████  ███████ 
+                                                                             
+                                            L O L ||||||||
+                                                                             ";
 
         /// <summary>
         /// Gets the Christmas loader message.
         /// </summary>
         public static string Christmas => @"
-       __                                   █████  ████████  ██████  ███    ███ ██ ██      ███████ ██████
-    .-'  |                                ██   ██    ██    ██    ██ ████  ████ ██ ██      ██      ██   ██
-   /   <\|                                ███████    ██    ██    ██ ██ ████ ██ ██ ██      █████   ██   ██
-  /     \'                                ██   ██    ██    ██    ██ ██  ██  ██ ██ ██      ██      ██   ██
-  |_.- o-o                                ██   ██    ██     ██████  ██      ██ ██ ███████ ███████ ██████
+       __   |  █████  ████████  ██████  ███    ███ ██ ██      ███████ ██████
+    .-'  |  | ██   ██    ██    ██    ██ ████  ████ ██ ██      ██      ██   ██
+   /   <\|  | ███████    ██    ██    ██ ██ ████ ██ ██ ██      █████   ██   ██
+  /     \'  | ██   ██    ██    ██    ██ ██  ██  ██ ██ ██      ██      ██   ██
+  |_.- o-o  | ██   ██    ██     ██████  ██      ██ ██ ███████ ███████ ██████
   / C  -._)\
  /',        |
 |   `-,_,__,'

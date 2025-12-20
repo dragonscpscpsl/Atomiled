@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
     using System;
     using System.Collections.Generic;
@@ -13,8 +13,8 @@ namespace Exiled.Events.Patches.Fixes
 
     using API.Features.Pools;
 
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pickups;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pickups;
 
     using HarmonyLib;
     using InventorySystem;

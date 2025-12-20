@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Interfaces
+namespace Atomiled.Events.EventArgs.Interfaces
 {
-    using Exiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups;
 
     /// <summary>
     /// Event args used for all <see cref="API.Features.Pickups.Pickup" /> related events.

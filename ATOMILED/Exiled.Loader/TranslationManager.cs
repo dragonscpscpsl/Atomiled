@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.Collections.Generic;
@@ -16,8 +16,8 @@ namespace Exiled.Loader
     using API.Extensions;
     using API.Interfaces;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
 
     using YamlDotNet.Core;
 

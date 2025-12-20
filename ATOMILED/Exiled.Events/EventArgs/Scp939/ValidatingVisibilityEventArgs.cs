@@ -1,16 +1,16 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="ValidatingVisibilityEventArgs.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp939
+namespace Atomiled.Events.EventArgs.Scp939
 {
     using API.Features;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Roles;
     using Interfaces;
 
     /// <summary>

@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Permissions
+namespace Atomiled.Permissions
 {
     using System.ComponentModel;
     using System.IO;
 
     using API.Interfaces;
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     /// <inheritdoc cref="IConfig"/>
     public sealed class Config : IConfig

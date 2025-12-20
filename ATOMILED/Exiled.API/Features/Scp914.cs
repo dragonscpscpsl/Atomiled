@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pools;
     using global::Scp914;
     using UnityEngine;
 

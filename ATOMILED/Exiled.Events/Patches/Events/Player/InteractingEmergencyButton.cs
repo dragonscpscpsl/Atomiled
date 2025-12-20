@@ -1,21 +1,21 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="InteractingEmergencyButton.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
     using HarmonyLib;
     using Interactables.Interobjects;
     using Interactables.Interobjects.DoorUtils;

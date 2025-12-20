@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features
+namespace Atomiled.CustomRoles.API.Features
 {
     using System;
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
-    using Exiled.CustomRoles.API.Features.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.CustomRoles.API.Features.Enums;
 
     using MEC;
 

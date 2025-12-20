@@ -5,18 +5,18 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp1507
+namespace Atomiled.Events.EventArgs.Scp1507
 {
     using System;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information before SCP-1507 screams.
     /// </summary>
-    [Obsolete("Only availaible for Christmas and AprilFools.")]
+    // [Obsolete("Only availaible for Christmas and AprilFools.")]
     public class ScreamingEventArgs : IScp1507Event, IDeniableEvent
     {
         /// <summary>

@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Interfaces
+namespace Atomiled.Events.EventArgs.Interfaces
 {
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Features.Roles;
 
     /// <summary>
     /// Event args used for all <see cref="Scp096Role" /> related events.

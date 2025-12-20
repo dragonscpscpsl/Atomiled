@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Server
+namespace Atomiled.Events.Patches.Events.Server
 {
     using System;
     using System.Collections.Generic;
@@ -13,9 +13,9 @@ namespace Exiled.Events.Patches.Events.Server
 
     using API.Features.Pools;
     using CustomPlayerEffects.Danger;
-    using Exiled.API.Enums;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Enums;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
     using GameCore;
 
     using HarmonyLib;

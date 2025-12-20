@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Respawning;
     using Respawning.Waves;
 

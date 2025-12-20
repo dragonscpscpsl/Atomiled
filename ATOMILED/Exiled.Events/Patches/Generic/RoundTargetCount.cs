@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System;
     using System.Collections.Generic;
@@ -13,8 +13,8 @@ namespace Exiled.Events.Patches.Generic
     using System.Reflection;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
     using HarmonyLib;
 
     using static HarmonyLib.AccessTools;

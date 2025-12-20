@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.PluginManager
+namespace Atomiled.Events.Commands.PluginManager
 {
     using System;
     using System.Linq;
@@ -13,8 +13,8 @@ namespace Exiled.Events.Commands.PluginManager
 
     using CommandSystem;
 
-    using Exiled.Events.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.Events.Features;
+    using Atomiled.Permissions.Extensions;
 
     using NorthwoodLib.Pools;
 

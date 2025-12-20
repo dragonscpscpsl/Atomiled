@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags.Features
+namespace Atomiled.CreditTags.Features
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
 
     using Cryptography;
-    using Exiled.API.Features;
-    using Exiled.CreditTags.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.CreditTags.Enums;
 
     public static class DatabaseHandler
     {

@@ -5,19 +5,19 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
     using System;
 
-    using Exiled.Events.EventArgs.Scp1507;
-    using Exiled.Events.Features;
+    using Atomiled.Events.EventArgs.Scp1507;
+    using Atomiled.Events.Features;
 
 #pragma warning disable SA1623
 
     /// <summary>
     /// SCP-1507 related events.
     /// </summary>
-    [Obsolete("Only availaible for Christmas and AprilFools.")]
+    // [Obsolete("Only availaible for Christmas and AprilFools.")]
     public static class Scp1507
     {
         /// <summary>

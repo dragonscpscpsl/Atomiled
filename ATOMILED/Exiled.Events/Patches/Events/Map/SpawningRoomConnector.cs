@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Map
+namespace Atomiled.Events.Patches.Events.Map
 {
     using MapGeneration.RoomConnectors;
 
@@ -15,10 +15,10 @@ namespace Exiled.Events.Patches.Events.Map
     using System.Reflection;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Map;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Map;
     using HarmonyLib;
     using MapGeneration;
     using MapGeneration.RoomConnectors.Spawners;

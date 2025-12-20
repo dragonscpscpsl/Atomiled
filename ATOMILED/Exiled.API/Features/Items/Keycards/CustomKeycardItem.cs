@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.Keycards
+namespace Atomiled.API.Features.Items.Keycards
 {
     using System;
     using System.Collections.Generic;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Interfaces.Keycards;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Interfaces.Keycards;
     using Interactables.Interobjects.DoorUtils;
     using InventorySystem;
     using InventorySystem.Items;

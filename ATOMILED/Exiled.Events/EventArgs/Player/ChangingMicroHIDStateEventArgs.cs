@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using System;
 

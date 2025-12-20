@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
     using System;
 
-    using Exiled.API.Features.DamageHandlers;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features.DamageHandlers;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Interfaces;
     using InventorySystem.Items;
     using InventorySystem.Items.Usables.Scp244;
 

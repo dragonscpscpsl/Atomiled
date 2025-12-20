@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using HarmonyLib;
 
-    using static Exiled.Events.Events;
+    using static Atomiled.Events.Events;
 
     /// <summary>
     /// Patch the <see cref="ServerConsole.ReloadServerName"/>.

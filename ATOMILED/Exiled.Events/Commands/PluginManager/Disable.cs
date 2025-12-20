@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.PluginManager
+namespace Atomiled.Events.Commands.PluginManager
 {
     using System;
 
     using API.Interfaces;
     using CommandSystem;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.Permissions.Extensions;
     using RemoteAdmin;
 
     /// <summary>

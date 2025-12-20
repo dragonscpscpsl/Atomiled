@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.IO;
@@ -36,9 +36,9 @@ namespace Exiled.API.Features
         public static string ServerConfig { get; } = FileManager.GetAppFolder(serverConfig: true);
 
         /// <summary>
-        /// Gets or sets exiled directory path.
+        /// Gets or sets atomiled directory path.
         /// </summary>
-        public static string ATOMILED { get; set; }
+        public static string Atomiled { get; set; }
 
         /// <summary>
         /// Gets or sets plugins path.
@@ -103,18 +103,18 @@ namespace Exiled.API.Features
         {
             rootDirectory ??= Path.Combine(AppData, "ATOMILED");
 
-            ATOMILED = rootDirectory;
-            Plugins = Path.Combine(ATOMILED, "Plugins");
+            Atomiled = rootDirectory;
+            Plugins = Path.Combine(Atomiled, "Plugins");
             Dependencies = Path.Combine(Plugins, "dependencies");
-            Configs = Path.Combine(ATOMILED, "Configs");
+            Configs = Path.Combine(Atomiled, "Configs");
             IndividualConfigs = Path.Combine(Configs, "Plugins");
-            LoaderConfig = LabApi.Loader.PluginLoader.EnabledPlugins.FirstOrDefault(x => x.Name == "ATOMILED Loader")?.GetConfigPath("ATOMILED Loader");
+            LoaderConfig = LabApi.Loader.PluginLoader.EnabledPlugins.FirstOrDefault(x => x.Name == "Atomiled Loader")?.GetConfigPath("Atomiled Loader");
             Config = Path.Combine(Configs, $"{Server.Port}-config.yml");
             BackupConfig = Path.Combine(Configs, $"{Server.Port}-config.yml.old");
             IndividualTranslations = Path.Combine(Configs, "Translations");
             Translations = Path.Combine(Configs, $"{Server.Port}-translations.yml");
             BackupTranslations = Path.Combine(Configs, $"{Server.Port}-translations.yml.old");
-            Log = Path.Combine(ATOMILED, $"{Server.Port}-RemoteAdminLog.txt");
+            Log = Path.Combine(Atomiled, $"{Server.Port}-RemoteAdminLog.txt");
         }
 
         /// <summary>

@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags.Commands
+namespace Atomiled.CreditTags.Commands
 {
     using System;
 
     using CommandSystem;
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     /// <summary>
     /// A client command to show an EXILED credit tag.

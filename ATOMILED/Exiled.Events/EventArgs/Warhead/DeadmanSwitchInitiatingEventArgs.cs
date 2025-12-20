@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Warhead
+namespace Atomiled.Events.EventArgs.Warhead
 {
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information before detonating the warhead.

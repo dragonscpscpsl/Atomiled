@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Installer
+namespace Atomiled.Installer
 {
     using System;
     using System.CommandLine;
@@ -17,7 +17,7 @@ namespace Exiled.Installer
     internal sealed class CommandSettings
     {
         /// <summary>
-        /// The RootCommand to the Exiled Installer
+        /// The RootCommand to the Atomiled Installer
         /// </summary>
         public static readonly RootCommand RootCommand = new()
         {
@@ -68,7 +68,7 @@ namespace Exiled.Installer
                 { IsRequired = true },
 
              new Option<DirectoryInfo?>(
-                "--exiled",
+                "--atomiled",
                 (parsed) =>
                 {
                     string appdataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
@@ -139,9 +139,9 @@ namespace Exiled.Installer
         public DirectoryInfo AppData { get; set; }
 
         /// <summary>
-        /// Gets or sets the Exiled directory path.
+        /// Gets or sets the Atomiled directory path.
         /// </summary>
-        public DirectoryInfo Exiled { get; set; }
+        public DirectoryInfo Atomiled { get; set; }
 #nullable restore
         /// <summary>
         /// Gets or sets if it is a prerelease.
@@ -164,7 +164,7 @@ namespace Exiled.Installer
         public string? GitHubToken { get; set; }
 
         /// <summary>
-        /// Gets or sets the version of Exiled available.
+        /// Gets or sets the version of Atomiled available.
         /// </summary>
         public bool GetVersions { get; set; }
 

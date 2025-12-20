@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Warhead
+namespace Atomiled.Events.Patches.Events.Warhead
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Warhead;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Warhead;
 
     using HarmonyLib;
 

@@ -6,7 +6,7 @@
 // -----------------------------------------------------------------------
 
 #nullable enable
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using UnityEngine;
 

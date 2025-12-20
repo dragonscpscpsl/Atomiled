@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
@@ -13,8 +13,8 @@ namespace Exiled.API.Features
 
     using DeathAnimations;
     using Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Interfaces;
     using Mirror;
     using PlayerRoles;
     using PlayerRoles.PlayableScps.Scp049.Zombies;

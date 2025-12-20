@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
@@ -20,7 +20,7 @@ namespace Exiled.Events.Patches.Generic
 
     using static HarmonyLib.AccessTools;
 
-    using ExiledEvents = Exiled.Events.Events;
+    using ExiledEvents = Atomiled.Events.Events;
 
     /// <summary>
     /// Patches <see cref="Scp079ScannerTracker.AddTarget(ReferenceHub)"/>.

@@ -5,18 +5,18 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.Features
+namespace Atomiled.CustomItems.API.Features
 {
     using System;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pickups.Projectiles;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Map;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups.Projectiles;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Map;
+    using Atomiled.Events.EventArgs.Player;
 
     using Footprinting;
     using InventorySystem.Items;
@@ -26,7 +26,7 @@ namespace Exiled.CustomItems.API.Features
     using UnityEngine;
 
     using Object = UnityEngine.Object;
-    using Server = Exiled.API.Features.Server;
+    using Server = Atomiled.API.Features.Server;
 
     /// <summary>
     /// The Custom Grenade base class.
@@ -110,10 +110,10 @@ namespace Exiled.CustomItems.API.Features
         /// <inheritdoc/>
         protected override void SubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.ThrowingRequest += OnInternalThrowingRequest;
-            Exiled.Events.Handlers.Player.ThrownProjectile += OnInternalThrownProjectile;
-            Exiled.Events.Handlers.Map.ExplodingGrenade += OnInternalExplodingGrenade;
-            Exiled.Events.Handlers.Map.ChangedIntoGrenade += OnInternalChangedIntoGrenade;
+            Atomiled.Events.Handlers.Player.ThrowingRequest += OnInternalThrowingRequest;
+            Atomiled.Events.Handlers.Player.ThrownProjectile += OnInternalThrownProjectile;
+            Atomiled.Events.Handlers.Map.ExplodingGrenade += OnInternalExplodingGrenade;
+            Atomiled.Events.Handlers.Map.ChangedIntoGrenade += OnInternalChangedIntoGrenade;
 
             base.SubscribeEvents();
         }
@@ -121,10 +121,10 @@ namespace Exiled.CustomItems.API.Features
         /// <inheritdoc/>
         protected override void UnsubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.ThrowingRequest -= OnInternalThrowingRequest;
-            Exiled.Events.Handlers.Player.ThrownProjectile -= OnInternalThrownProjectile;
-            Exiled.Events.Handlers.Map.ExplodingGrenade -= OnInternalExplodingGrenade;
-            Exiled.Events.Handlers.Map.ChangedIntoGrenade -= OnInternalChangedIntoGrenade;
+            Atomiled.Events.Handlers.Player.ThrowingRequest -= OnInternalThrowingRequest;
+            Atomiled.Events.Handlers.Player.ThrownProjectile -= OnInternalThrownProjectile;
+            Atomiled.Events.Handlers.Map.ExplodingGrenade -= OnInternalExplodingGrenade;
+            Atomiled.Events.Handlers.Map.ChangedIntoGrenade -= OnInternalChangedIntoGrenade;
 
             base.UnsubscribeEvents();
         }
@@ -183,7 +183,7 @@ namespace Exiled.CustomItems.API.Features
                 timeGrenade.FuseTime = FuseTime;
 
             if (ExplodeOnCollision)
-                ev.Projectile.GameObject.AddComponent<Exiled.API.Features.Components.CollisionHandler>().Init((ev.Player ?? Server.Host).GameObject, ev.Projectile.Base);
+                ev.Projectile.GameObject.AddComponent<Atomiled.API.Features.Components.CollisionHandler>().Init((ev.Player ?? Server.Host).GameObject, ev.Projectile.Base);
         }
 
         private void OnInternalExplodingGrenade(ExplodingGrenadeEventArgs ev)
@@ -206,7 +206,7 @@ namespace Exiled.CustomItems.API.Features
             OnChangedIntoGrenade(ev);
 
             if (ExplodeOnCollision)
-                ev.Projectile.GameObject.AddComponent<Exiled.API.Features.Components.CollisionHandler>().Init((ev.Pickup.PreviousOwner ?? Server.Host).GameObject, ev.Projectile.Base);
+                ev.Projectile.GameObject.AddComponent<Atomiled.API.Features.Components.CollisionHandler>().Init((ev.Pickup.PreviousOwner ?? Server.Host).GameObject, ev.Projectile.Base);
         }
     }
 }

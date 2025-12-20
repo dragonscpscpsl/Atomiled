@@ -1,13 +1,13 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="CustomItemNameDetailData.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic.KeycardDetails
+namespace Atomiled.Events.Patches.Generic.KeycardDetails
 {
-    using Exiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Items.Keycards;
     using HarmonyLib;
     using InventorySystem.Items.Keycards;
 

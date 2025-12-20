@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.Commands
+namespace Atomiled.CustomRoles.Commands
 {
     using System;
     using System.Linq;
 
     using CommandSystem;
 
-    using Exiled.API.Features;
-    using Exiled.CustomRoles.API;
-    using Exiled.CustomRoles.API.Features;
+    using Atomiled.API.Features;
+    using Atomiled.CustomRoles.API;
+    using Atomiled.CustomRoles.API.Features;
 
     /// <summary>
     /// Handles the using of custom role abilities.

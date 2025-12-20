@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using System.Collections.Generic;
 
     using API.Enums;
     using API.Features;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Pools;
     using Interfaces;
     using InventorySystem;
     using PlayerRoles;

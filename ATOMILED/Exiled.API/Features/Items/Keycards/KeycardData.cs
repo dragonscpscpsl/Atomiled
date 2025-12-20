@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.Keycards
+namespace Atomiled.API.Features.Items.Keycards
 {
     using UnityEngine;
 

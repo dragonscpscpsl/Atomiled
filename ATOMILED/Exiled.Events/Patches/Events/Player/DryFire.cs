@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
 #pragma warning disable SA1402
 #pragma warning disable SA1600
@@ -16,9 +16,9 @@ namespace Exiled.Events.Patches.Events.Player
 
     using Attributes;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.Events.EventArgs.Player;
 
     using Handlers;
 

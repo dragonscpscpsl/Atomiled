@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
 #pragma warning disable SA1600
 #pragma warning disable SA1313 // Parameter names should begin with lower-case letter
@@ -13,8 +13,8 @@ namespace Exiled.Events.Patches.Events.Player
     using System;
 
     using API.Features;
-    using Exiled.Events.EventArgs.Player;
-    using Exiled.Loader.Features;
+    using Atomiled.Events.EventArgs.Player;
+    using Atomiled.Loader.Features;
 
     using HarmonyLib;
 

@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Roles
+namespace Atomiled.API.Features.Roles
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Pools;
 
     using PlayerRoles;
     using PlayerRoles.PlayableScps;

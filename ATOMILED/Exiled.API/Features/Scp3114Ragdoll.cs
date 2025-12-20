@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using PlayerRoles;
 
     using BaseScp3114Ragdoll = PlayerRoles.PlayableScps.Scp3114.Scp3114Ragdoll;

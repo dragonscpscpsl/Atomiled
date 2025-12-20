@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp173
+namespace Atomiled.Events.EventArgs.Scp173
 {
     using System;
 
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     using Hazards;
     using PlayerRoles.Subroutines;

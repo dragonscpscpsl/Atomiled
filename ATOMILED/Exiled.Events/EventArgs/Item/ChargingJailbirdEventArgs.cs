@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Item
+namespace Atomiled.Events.EventArgs.Item
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information before a player starts charging an <see cref="Jailbird"/>.

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features
+namespace Atomiled.CustomRoles.API.Features
 {
     /// <summary>
     /// The base class for passive (always active) abilities.

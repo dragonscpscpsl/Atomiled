@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles
+namespace Atomiled.CustomRoles
 {
     using System.ComponentModel;
 
-    using Exiled.API.Features;
-    using Exiled.API.Interfaces;
-    using Exiled.CustomRoles.API.Features;
+    using Atomiled.API.Features;
+    using Atomiled.API.Interfaces;
+    using Atomiled.CustomRoles.API.Features;
 
     /// <summary>
     /// The plugin's config.

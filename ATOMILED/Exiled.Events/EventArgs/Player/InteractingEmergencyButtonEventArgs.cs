@@ -1,15 +1,15 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="InteractingEmergencyButtonEventArgs.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Doors;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Interactables.Interobjects;
 
     /// <summary>

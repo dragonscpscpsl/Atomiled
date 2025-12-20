@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     using Interactables.Interobjects;
 

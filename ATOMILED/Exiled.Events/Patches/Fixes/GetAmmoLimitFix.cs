@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
     using System;
     using System.Collections.Generic;

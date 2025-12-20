@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.Keycards
+namespace Atomiled.API.Features.Items.Keycards
 {
-    using Exiled.API.Interfaces.Keycards;
+    using Atomiled.API.Interfaces.Keycards;
 
     using Interactables.Interobjects.DoorUtils;
 

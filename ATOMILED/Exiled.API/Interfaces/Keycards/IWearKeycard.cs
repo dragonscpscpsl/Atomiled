@@ -1,13 +1,13 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="IWearKeycard.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Interfaces.Keycards
+namespace Atomiled.API.Interfaces.Keycards
 {
-    using Exiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Items.Keycards;
 
     /// <summary>
     /// An interface for <see cref="CustomKeycardItem"/>'s with the <see cref="Wear"/> property.

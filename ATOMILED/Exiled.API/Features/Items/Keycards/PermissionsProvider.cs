@@ -1,11 +1,11 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="PermissionsProvider.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.Keycards
+namespace Atomiled.API.Features.Items.Keycards
 {
     using Interactables.Interobjects.DoorUtils;
     using InventorySystem.Items;

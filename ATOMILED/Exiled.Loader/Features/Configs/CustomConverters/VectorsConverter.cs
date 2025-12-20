@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Features.Configs.CustomConverters
+namespace Atomiled.Loader.Features.Configs.CustomConverters
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using System.IO;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
 
     using UnityEngine;
 

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.StateMachine
+namespace Atomiled.API.Features.Core.StateMachine
 {
     /// <summary>
     /// Defines the contract for basic state features.

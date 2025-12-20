@@ -1,18 +1,18 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="LastTarget.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
     using HarmonyLib;
     using PlayerRoles.PlayableScps.HumanTracker;
 

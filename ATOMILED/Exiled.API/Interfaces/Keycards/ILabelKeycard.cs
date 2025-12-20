@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Interfaces.Keycards
+namespace Atomiled.API.Interfaces.Keycards
 {
-    using Exiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Items.Keycards;
     using UnityEngine;
 
     /// <summary>

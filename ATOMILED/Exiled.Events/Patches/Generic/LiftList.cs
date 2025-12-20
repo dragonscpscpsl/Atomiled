@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
 #pragma warning disable SA1313 // Parameter names should begin with lower-case letter
     using API.Features;

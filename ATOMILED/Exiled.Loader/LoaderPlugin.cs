@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.IO;
@@ -19,26 +19,26 @@ namespace Exiled.Loader
     using Paths = API.Features.Paths;
 
     /// <summary>
-    /// The Northwood LabAPI Plugin class for the EXILED Loader.
+    /// The Northwood LabAPI Plugin class for the ATOMILED Loader.
     /// </summary>
     public class LoaderPlugin : Plugin<Config>
     {
 #pragma warning disable SA1401
         /// <summary>
-        /// The config for the EXILED Loader.
+        /// The config for the ATOMILED Loader.
         /// </summary>
         public static new Config Config;
 
         /// <summary>
-        /// The config for the EXILED Loader.
+        /// The config for the ATOMILED Loader.
         /// </summary>
         public static LoaderPlugin Instance;
 #pragma warning restore SA1401
 
         /// <summary>
-        /// Gets the Name of the EXILED Loader.
+        /// Gets the Name of the ATOMILED Loader.
         /// </summary>
-        public override string Name => "ATOMILED Loader";
+        public override string Name => "Atomiled Loader";
 
         /// <summary>
         /// Gets the Description of the ATOMILED Loader.
@@ -46,22 +46,22 @@ namespace Exiled.Loader
         public override string Description => "Loads the ATOMILED Plugin Framework.";
 
         /// <summary>
-        /// Gets the Author of the EXILED Loader.
+        /// Gets the Author of the ATOMILED Loader.
         /// </summary>
-        public override string Author => "ExMod-Team - AtomStudioCreations";
+        public override string Author => "ExMod-Team";
 
         /// <summary>
-        /// Gets the RequiredApiVersion of the EXILED Loader.
+        /// Gets the RequiredApiVersion of the ATOMILED Loader.
         /// </summary>
         public override Version RequiredApiVersion => LabApi.Features.LabApiProperties.CurrentVersion;
 
         /// <summary>
-        /// Gets the Exiled Version.
+        /// Gets the Atomiled Version.
         /// </summary>
         public override Version Version => Loader.Version;
 
         /// <summary>
-        /// Gets the Exiled Priority load.
+        /// Gets the Atomiled Priority load.
         /// </summary>
         public override LoadPriority Priority { get; } = (LoadPriority)byte.MaxValue;
 
@@ -89,9 +89,9 @@ namespace Exiled.Loader
 
             Paths.Reload(Config.AtomiledDirectoryPath);
 
-            Log.Info($"ATOMILED root path set to: {Paths.ATOMILED}");
+            Log.Info($"Atomiled root path set to: {Paths.Atomiled}");
 
-            Directory.CreateDirectory(Paths.ATOMILED);
+            Directory.CreateDirectory(Paths.Atomiled);
             Directory.CreateDirectory(Paths.Configs);
             Directory.CreateDirectory(Paths.Plugins);
             Directory.CreateDirectory(Paths.Dependencies);

@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information after a player gets unbanned.

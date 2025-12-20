@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
     using System;
     using System.Reflection;
 
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Interfaces;
 
     using InventorySystem.Items.Autosync;
     using InventorySystem.Items.Firearms.Modules;

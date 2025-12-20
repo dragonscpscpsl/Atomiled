@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using Enums;
 

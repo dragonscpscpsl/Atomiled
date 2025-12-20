@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.PluginManager
+namespace Atomiled.Events.Commands.PluginManager
 {
     using System;
 

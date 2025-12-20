@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Core;
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Core;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Interfaces;
     using InventorySystem;
     using InventorySystem.Items;
     using InventorySystem.Items.Armor;
@@ -218,7 +218,11 @@ namespace Exiled.API.Features.Items
 
             return itemBase switch
             {
-                InventorySystem.Items.Firearms.Firearm firearm => new Firearm(firearm),
+                InventorySystem.Items.Firearms.Firearm firearm => firearm.ItemTypeId switch
+                {
+                    ItemType.GunSCP127 => new Scp127(firearm),
+                    _ => new Firearm(firearm),
+                },
                 KeycardItem keycard => keycard switch
                 {
                     ChaosKeycardItem chaosKeycardItem => new ChaosKeycard(chaosKeycardItem),
@@ -318,7 +322,11 @@ namespace Exiled.API.Features.Items
         /// <returns>The <see cref="Item"/> created. This can be cast as a subclass.</returns>
         public static Item Create(ItemType type, Player owner = null) => type.GetTemplate() switch
         {
-            InventorySystem.Items.Firearms.Firearm => new Firearm(type),
+            InventorySystem.Items.Firearms.Firearm => type switch
+            {
+                ItemType.GunSCP127 => new Scp127(),
+                _ => new Firearm(type),
+            },
             KeycardItem keycard => keycard switch
             {
                 ChaosKeycardItem => new ChaosKeycard(type),

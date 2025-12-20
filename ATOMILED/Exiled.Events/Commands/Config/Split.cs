@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.Config
+namespace Atomiled.Events.Commands.Config
 {
     using System;
     using System.Collections.Generic;

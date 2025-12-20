@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags.Features
+namespace Atomiled.CreditTags.Features
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
     using MEC;
     using UnityEngine.Networking;
 

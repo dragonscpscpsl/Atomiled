@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
 #pragma warning disable SA1402 // File may only contain a single type
 #pragma warning disable SA1313 // Parameter names should begin with lower-case letter
@@ -16,8 +16,8 @@ namespace Exiled.Events.Patches.Events.Player
     using API.Features;
     using API.Features.Pools;
     using CentralAuth;
-    using Exiled.API.Extensions;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Extensions;
+    using Atomiled.Events.EventArgs.Player;
     using HarmonyLib;
 
     using static HarmonyLib.AccessTools;

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Item
+namespace Atomiled.Events.Patches.Events.Item
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
@@ -14,7 +14,7 @@ namespace Exiled.Events.Patches.Events.Item
     using API.Features.Pickups;
     using API.Features.Pools;
     using Attributes;
-    using Exiled.Events.EventArgs.Item;
+    using Atomiled.Events.EventArgs.Item;
 
     using Footprinting;
 

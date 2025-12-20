@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.PluginManager
+namespace Atomiled.Events.Commands.PluginManager
 {
     using System;
     using System.IO;
@@ -14,8 +14,8 @@ namespace Exiled.Events.Commands.PluginManager
 
     using API.Interfaces;
     using CommandSystem;
-    using Exiled.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.Permissions.Extensions;
     using RemoteAdmin;
 
     /// <summary>

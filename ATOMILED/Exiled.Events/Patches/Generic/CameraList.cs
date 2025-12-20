@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
 #pragma warning disable SA1402
     using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace Exiled.Events.Patches.Generic
 
     using API.Features;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
     using HarmonyLib;
 

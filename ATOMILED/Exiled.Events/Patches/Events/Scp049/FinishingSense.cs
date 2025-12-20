@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp049
+namespace Atomiled.Events.Patches.Events.Scp049
 {
 #pragma warning disable SA1402 // File may only contain a single type
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp049;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp049;
     using HarmonyLib;
 
     using PlayerRoles.PlayableScps.Scp049;

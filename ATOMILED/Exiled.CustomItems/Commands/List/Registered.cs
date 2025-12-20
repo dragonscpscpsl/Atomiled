@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Commands.List
+namespace Atomiled.CustomItems.Commands.List
 {
     using System;
     using System.Linq;
@@ -13,9 +13,9 @@ namespace Exiled.CustomItems.Commands.List
 
     using CommandSystem;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     /// <inheritdoc/>
     internal sealed class Registered : ICommand

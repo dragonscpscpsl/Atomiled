@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features.Items;
-    using Exiled.API.Interfaces;
-    using Exiled.API.Structs;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Interfaces;
+    using Atomiled.API.Structs;
 
     using InventorySystem.Items;
     using InventorySystem.Items.Armor;

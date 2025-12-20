@@ -5,21 +5,21 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp1507
+namespace Atomiled.Events.EventArgs.Scp1507
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Interfaces;
     using PlayerRoles.PlayableScps.Scp1507;
     using Utils.NonAllocLINQ;
 
     /// <summary>
     /// Contains all information before flamingos get spawned.
     /// </summary>
-    [Obsolete("Only availaible for Christmas and AprilFools.")]
+    // [Obsolete("Only availaible for Christmas and AprilFools.")]
     public class SpawningFlamingosEventArgs : IDeniableEvent, IPlayerEvent
     {
         /// <summary>

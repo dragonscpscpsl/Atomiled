@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pools
+namespace Atomiled.API.Features.Pools
 {
     using System.Collections.Generic;
 

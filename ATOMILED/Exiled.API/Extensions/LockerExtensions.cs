@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using System;
 
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
     using MapGeneration.Distributors;
 
     /// <summary>

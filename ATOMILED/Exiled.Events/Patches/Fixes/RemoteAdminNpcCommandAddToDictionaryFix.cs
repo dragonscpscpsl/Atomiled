@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
     using System.Collections.Generic;
     using System.Reflection;
     using System.Reflection.Emit;
 
     using CommandSystem.Commands.RemoteAdmin.Dummies;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
     using GameCore;
     using HarmonyLib;
     using NetworkManagerUtils.Dummies;

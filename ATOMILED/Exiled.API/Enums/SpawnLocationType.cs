@@ -4,7 +4,7 @@
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     using System;
 

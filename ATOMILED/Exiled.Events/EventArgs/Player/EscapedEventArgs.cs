@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using System;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information after player has escaped.

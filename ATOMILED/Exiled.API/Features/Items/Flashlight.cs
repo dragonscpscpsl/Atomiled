@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
     using System;
 
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using InventorySystem.Items.ToggleableLights;
     using InventorySystem.Items.ToggleableLights.Flashlight;
     using InventorySystem.Items.ToggleableLights.Lantern;

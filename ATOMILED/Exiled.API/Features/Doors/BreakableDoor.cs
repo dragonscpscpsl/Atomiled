@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Doors
+namespace Atomiled.API.Features.Doors
 {
     using System.Collections.Generic;
 

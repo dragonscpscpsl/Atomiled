@@ -5,20 +5,20 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp1507
+namespace Atomiled.Events.EventArgs.Scp1507
 {
     using System;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Interactables.Interobjects.DoorUtils;
 
     /// <summary>
     /// Contains all information before SCP-1507 attacks door.
     /// </summary>
-    [Obsolete("Only availaible for Christmas and AprilFools.")]
+    // [Obsolete("Only availaible for Christmas and AprilFools.")]
     public class AttackingDoorEventArgs : IScp1507Event, IDeniableEvent, IDoorEvent
     {
         /// <summary>

@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using Hazards;
     using MEC;
     using PlayerRoles;

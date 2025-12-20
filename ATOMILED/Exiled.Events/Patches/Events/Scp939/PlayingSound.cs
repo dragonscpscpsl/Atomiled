@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp939
+namespace Atomiled.Events.Patches.Events.Scp939
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp939;
-    using Exiled.Events.Handlers;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp939;
+    using Atomiled.Events.Handlers;
 
     using HarmonyLib;
     using Mirror;

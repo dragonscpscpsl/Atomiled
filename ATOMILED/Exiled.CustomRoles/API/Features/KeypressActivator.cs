@@ -5,18 +5,18 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features
+namespace Atomiled.CustomRoles.API.Features
 {
     using System.Collections.Generic;
     using System.Globalization;
     using System.Text;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Roles;
-    using Exiled.CustomRoles.API.Features.Enums;
-    using Exiled.Events.EventArgs.Player;
-    using Exiled.Events.EventArgs.Server;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.CustomRoles.API.Features.Enums;
+    using Atomiled.Events.EventArgs.Player;
+    using Atomiled.Events.EventArgs.Server;
 
     using MEC;
 
@@ -35,8 +35,8 @@ namespace Exiled.CustomRoles.API.Features
         /// </summary>
         internal KeypressActivator()
         {
-            Exiled.Events.Handlers.Player.TogglingNoClip += OnTogglingNoClip;
-            Exiled.Events.Handlers.Server.EndingRound += OnEndingRound;
+            Atomiled.Events.Handlers.Player.TogglingNoClip += OnTogglingNoClip;
+            Atomiled.Events.Handlers.Server.EndingRound += OnEndingRound;
         }
 
         /// <summary>
@@ -44,8 +44,8 @@ namespace Exiled.CustomRoles.API.Features
         /// </summary>
         ~KeypressActivator()
         {
-            Exiled.Events.Handlers.Player.TogglingNoClip -= OnTogglingNoClip;
-            Exiled.Events.Handlers.Server.EndingRound -= OnEndingRound;
+            Atomiled.Events.Handlers.Player.TogglingNoClip -= OnTogglingNoClip;
+            Atomiled.Events.Handlers.Server.EndingRound -= OnEndingRound;
             DictionaryPool<Player, int>.Pool.Return(altTracker);
             DictionaryPool<Player, CoroutineHandle>.Pool.Return(coroutineTracker);
         }

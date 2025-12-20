@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.Features
+namespace Atomiled.CustomItems.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Structs;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Structs;
+    using Atomiled.Events.EventArgs.Player;
 
     using InventorySystem.Items.Armor;
     using MEC;
@@ -98,20 +98,20 @@ namespace Exiled.CustomItems.API.Features
         /// <inheritdoc/>
         protected override void SubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.PickingUpItem += OnInternalPickingUpItem;
+            Atomiled.Events.Handlers.Player.PickingUpItem += OnInternalPickingUpItem;
             base.SubscribeEvents();
         }
 
         /// <inheritdoc/>
         protected override void UnsubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.PickingUpItem -= OnInternalPickingUpItem;
+            Atomiled.Events.Handlers.Player.PickingUpItem -= OnInternalPickingUpItem;
             base.UnsubscribeEvents();
         }
 
         private void OnInternalPickingUpItem(PickingUpItemEventArgs ev)
         {
-            if (!Check(ev.Pickup) || ev.Player.Items.Count >= 8 || ev.Pickup is Exiled.API.Features.Pickups.BodyArmorPickup)
+            if (!Check(ev.Pickup) || ev.Player.Items.Count >= 8 || ev.Pickup is Atomiled.API.Features.Pickups.BodyArmorPickup)
                 return;
 
             OnPickingUp(ev);

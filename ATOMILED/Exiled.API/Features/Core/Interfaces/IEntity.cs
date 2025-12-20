@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.Interfaces
+namespace Atomiled.API.Features.Core.Interfaces
 {
     using System;
     using System.Collections.Generic;

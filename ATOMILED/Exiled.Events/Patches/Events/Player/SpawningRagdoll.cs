@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
 
-    using Exiled.API.Features;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Features;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
 
     using HarmonyLib;
 

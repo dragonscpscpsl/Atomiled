@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp2536
+namespace Atomiled.Events.Patches.Events.Scp2536
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using Christmas.Scp2536;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp244;
-    using Exiled.Events.EventArgs.Scp2536;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp244;
+    using Atomiled.Events.EventArgs.Scp2536;
     using HarmonyLib;
     using UnityEngine;
 

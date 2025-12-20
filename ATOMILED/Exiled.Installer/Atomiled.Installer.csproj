@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -16,7 +16,7 @@
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)\</OutputPath>
 
-        <AssemblyTitle>Exiled online installer</AssemblyTitle>
+        <AssemblyTitle>Atomiled online installer</AssemblyTitle>
         <ApplicationIcon>..\assets\Exiled_Icon.ico</ApplicationIcon>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
         <Configurations>Debug;Release;Installer</Configurations>

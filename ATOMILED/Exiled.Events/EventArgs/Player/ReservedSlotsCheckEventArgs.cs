@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
-    using Exiled.API.Enums;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information when checking if a player has a reserved slot.

@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp330
+namespace Atomiled.Events.Patches.Events.Scp330
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp330;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp330;
 
     using Handlers;
 

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Interfaces
+namespace Atomiled.API.Interfaces
 {
     using System;
     using System.Collections.Generic;
@@ -64,6 +64,11 @@ namespace Exiled.API.Interfaces
         /// Gets the required version of Exiled to run the plugin without bugs or incompatibilities.
         /// </summary>
         Version RequiredExiledVersion { get; }
+
+        /// <summary>
+        /// Gets the required version of Exiled to run the plugin without bugs or incompatibilities.
+        /// </summary>
+        Version RequiredAtomiledVersion { get; }
 
         /// <summary>
         /// Gets a value indicating whether a plugin should bypass the required EXILED version check.

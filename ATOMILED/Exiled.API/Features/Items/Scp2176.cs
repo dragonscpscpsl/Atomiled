@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
-    using Exiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups;
 
     using InventorySystem.Items;
     using InventorySystem.Items.Pickups;

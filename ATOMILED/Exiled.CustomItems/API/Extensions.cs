@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API
+namespace Atomiled.CustomItems.API
 {
     using System;
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.CustomItems.API.Features;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.CustomItems.API.Features;
 
     /// <summary>
     /// A collection of API methods.

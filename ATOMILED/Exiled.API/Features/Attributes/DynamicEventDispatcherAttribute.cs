@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Attributes
+namespace Atomiled.API.Features.Attributes
 {
     using System;
 
-    using Exiled.API.Features.DynamicEvents;
+    using Atomiled.API.Features.DynamicEvents;
 
     /// <summary>
     /// An attribute to easily manage <see cref="DynamicEventDispatcher"/> initialization.

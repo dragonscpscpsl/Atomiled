@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Toys
+namespace Atomiled.API.Features.Toys
 {
     using System.Collections.Generic;
 
     using AdminToys;
 
     using Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using Footprinting;
     using Mirror;
 

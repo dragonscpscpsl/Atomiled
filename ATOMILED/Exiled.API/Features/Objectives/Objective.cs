@@ -1,19 +1,19 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="Objective.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Objectives
+namespace Atomiled.API.Features.Objectives
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Core;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Core;
+    using Atomiled.API.Interfaces;
     using PlayerRoles;
     using Respawning;
     using Respawning.Objectives;

@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.FirearmModules.Primary
+namespace Atomiled.API.Features.Items.FirearmModules.Primary
 {
     using System;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
 
     using InventorySystem.Items.Firearms.Modules;
 
@@ -56,7 +56,7 @@ namespace Exiled.API.Features.Items.FirearmModules.Primary
         }
 
         /// <summary>
-        /// Gets or sets an used <see cref="Exiled.API.Enums.AmmoType"/> for this magazine.
+        /// Gets or sets an used <see cref="Atomiled.API.Enums.AmmoType"/> for this magazine.
         /// </summary>
         public abstract AmmoType AmmoType { get; set; }
     }

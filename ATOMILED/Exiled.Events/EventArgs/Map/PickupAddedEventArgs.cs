@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Interfaces;
     using InventorySystem.Items.Pickups;
 
     /// <summary>

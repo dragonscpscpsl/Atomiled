@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp914
+namespace Atomiled.Events.Patches.Events.Scp914
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp914;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp914;
 
     using global::Scp914;
 

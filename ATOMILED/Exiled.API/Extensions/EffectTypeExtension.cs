@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using System;
     using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace Exiled.API.Extensions
     using CustomPlayerEffects;
     using CustomRendering;
     using Enums;
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
     using InventorySystem.Items.MarshmallowMan;
     using InventorySystem.Items.Usables.Scp244.Hypothermia;
     using PlayerRoles.FirstPersonControl;
@@ -101,6 +101,9 @@ namespace Exiled.API.Extensions
             { EffectType.TraumatizedByEvil, typeof(TraumatizedByEvil) },
             { EffectType.WhiteCandy, typeof(WhiteCandy) },
             { EffectType.Scp1509Resurrected, typeof(Scp1509Resurrected) },
+            { EffectType.FocusedVision, typeof(FocusedVision) },
+            { EffectType.AnomalousRegeneration, typeof(AnomalousRegeneration) },
+            { EffectType.AnomalousTarget, typeof(AnomalousTarget) },
             #pragma warning restore CS0618
         });
 

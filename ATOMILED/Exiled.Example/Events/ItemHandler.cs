@@ -5,25 +5,25 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Events
+namespace Atomiled.Example.Events
 {
     using System.Linq;
 
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Item;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Item;
 
     /// <summary>
     /// Handles Item events.
     /// </summary>
     internal sealed class ItemHandler
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Item.OnChangingAmmo(ChangingAmmoEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Item.OnChangingAmmo(ChangingAmmoEventArgs)"/>
         public void OnChangingAmmo(ChangingAmmoEventArgs ev)
         {
             Log.Info($"Durability of {ev.Firearm.Type} ({ev.OldAmmo}) is changing. New durability: {ev.NewAmmo}");
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Item.OnChangingAttachments(ChangingAttachmentsEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Item.OnChangingAttachments(ChangingAttachmentsEventArgs)"/>
         public void OnChangingAttachments(ChangingAttachmentsEventArgs ev)
         {
             string oldAttachments = ev.CurrentAttachmentIdentifiers.Aggregate(string.Empty, (current, attachmentIdentifier) => current + $"{attachmentIdentifier.Name}\n");
@@ -32,7 +32,7 @@ namespace Exiled.Example.Events
             Log.Info($"Item {ev.Firearm.Type} attachments are changing. Old attachments:\n{oldAttachments} - New Attachments:\n{newAttachments}");
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Item.OnReceivingPreference(ReceivingPreferenceEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Item.OnReceivingPreference(ReceivingPreferenceEventArgs)"/>
         public void OnReceivingPreference(ReceivingPreferenceEventArgs ev)
         {
             Log.Info($"Receiving a preference from {ev.Player.Nickname} - Item: {ev.Item}");

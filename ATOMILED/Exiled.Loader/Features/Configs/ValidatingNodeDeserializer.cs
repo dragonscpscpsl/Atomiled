@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Features.Configs
+namespace Atomiled.Loader.Features.Configs
 {
     using System;
     using System.ComponentModel.DataAnnotations;
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     using YamlDotNet.Core;
     using YamlDotNet.Serialization;

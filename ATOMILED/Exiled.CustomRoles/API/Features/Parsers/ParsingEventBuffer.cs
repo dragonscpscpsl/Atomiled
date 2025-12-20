@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features.Parsers
+namespace Atomiled.CustomRoles.API.Features.Parsers
 {
     using System.Collections.Generic;
 

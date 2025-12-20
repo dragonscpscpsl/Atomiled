@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Interfaces
+namespace Atomiled.API.Interfaces
 {
     /// <summary>
     /// Defines the contract for classes that wrap a base-game object.

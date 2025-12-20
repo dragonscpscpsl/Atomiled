@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
     /// <summary>
-    /// Handles adding and removing from <see cref="Exiled.API.Features.Toys.AdminToy.List"/>.
+    /// Handles adding and removing from <see cref="Atomiled.API.Features.Toys.AdminToy.List"/>.
     /// </summary>
     internal static class AdminToyList
     {

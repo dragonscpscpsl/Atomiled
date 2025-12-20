@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
 #pragma warning disable SA1623 // Property summary documentation should match accessors
 
-    using Exiled.Events.EventArgs.Scp049;
-    using Exiled.Events.Features;
+    using Atomiled.Events.EventArgs.Scp049;
+    using Atomiled.Events.Features;
 
     /// <summary>
     /// SCP-049 related events.

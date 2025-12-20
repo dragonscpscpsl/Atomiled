@@ -5,23 +5,23 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Events
+namespace Atomiled.Example.Events
 {
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Warhead;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Warhead;
 
     /// <summary>
     /// Handles warhead events.
     /// </summary>
     internal sealed class WarheadHandler
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Warhead.OnStopping(StoppingEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Warhead.OnStopping(StoppingEventArgs)"/>
         public void OnStopping(StoppingEventArgs ev)
         {
             Log.Info($"{ev.Player.Nickname} stopped the warhead!");
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Warhead.OnStarting(StartingEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Warhead.OnStarting(StartingEventArgs)"/>
         public void OnStarting(StartingEventArgs ev)
         {
             Log.Info($"{ev.Player.Nickname} started the warhead!");

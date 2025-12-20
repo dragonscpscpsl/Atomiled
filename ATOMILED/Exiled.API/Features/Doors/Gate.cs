@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Doors
+namespace Atomiled.API.Features.Doors
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
     using Interactables.Interobjects;
     using Interactables.Interobjects.DoorUtils;
     using UnityEngine;

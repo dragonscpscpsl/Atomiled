@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
-    using Exiled.Events.EventArgs.Scp2536;
-    using Exiled.Events.Features;
+    using Atomiled.Events.EventArgs.Scp2536;
+    using Atomiled.Events.Features;
 #pragma warning disable SA1623
 
     /// <summary>

@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
     using API.Features;
-    using Exiled.API.Features.Toys;
+    using Atomiled.API.Features.Toys;
     using UnityEngine.SceneManagement;
 
 #pragma warning disable SA1611 // Element parameters should be documented

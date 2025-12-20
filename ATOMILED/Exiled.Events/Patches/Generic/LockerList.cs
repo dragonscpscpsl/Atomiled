@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.API.Features.Lockers;
+    using Atomiled.API.Features.Lockers;
     using HarmonyLib;
 
     using MapGeneration.Distributors;

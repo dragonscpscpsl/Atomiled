@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems
+namespace Atomiled.CustomItems
 {
     using System.ComponentModel;
 
-    using Exiled.API.Features;
-    using Exiled.API.Interfaces;
-    using Exiled.CustomItems.API.Features;
+    using Atomiled.API.Features;
+    using Atomiled.API.Interfaces;
+    using Atomiled.CustomItems.API.Features;
 
     /// <summary>
     /// The plugin's config class.

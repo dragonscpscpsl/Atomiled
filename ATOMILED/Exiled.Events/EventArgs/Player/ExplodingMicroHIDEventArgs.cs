@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
-    using Exiled.API.Features.Items;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Items;
+    using Atomiled.Events.EventArgs.Interfaces;
     using InventorySystem.Items.MicroHID;
 
     /// <summary>
@@ -36,7 +36,7 @@ namespace Exiled.Events.EventArgs.Player
         /// <summary>
         /// Gets the player in owner of the item.
         /// </summary>
-        public Exiled.API.Features.Player Player { get; }
+        public Atomiled.API.Features.Player Player { get; }
 
         /// <summary>
         /// Gets MicroHid item.

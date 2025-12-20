@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Map
+namespace Atomiled.Events.Patches.Events.Map
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Map;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Map;
     using Footprinting;
     using HarmonyLib;
     using InventorySystem.Items.ThrowableProjectiles;

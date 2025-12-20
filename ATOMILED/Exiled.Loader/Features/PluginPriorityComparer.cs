@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Features
+namespace Atomiled.Loader.Features
 {
     using System.Collections.Generic;
 

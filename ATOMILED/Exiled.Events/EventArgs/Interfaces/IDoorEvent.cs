@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Interfaces
+namespace Atomiled.Events.EventArgs.Interfaces
 {
-    using Exiled.API.Features.Doors;
+    using Atomiled.API.Features.Doors;
 
     /// <summary>
     /// Event args used for all <see cref="API.Features.Doors.Door" /> related events.

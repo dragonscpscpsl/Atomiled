@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System;
     using System.Collections.Generic;
@@ -21,11 +21,11 @@ namespace Exiled.Events.Patches.Generic
 
     using static HarmonyLib.AccessTools;
 
-    using Events = Exiled.Events.Events;
+    using Events = Atomiled.Events.Events;
 
     /// <summary>
     /// Patches <see cref="CommandProcessor.ProcessQuery"/> for command logging.
-    /// </summary>:iĞŞP0YDC <
+    /// </summary>
     [HarmonyPatch(typeof(CommandProcessor), nameof(CommandProcessor.ProcessQuery))]
     internal class CommandLogging
     {
@@ -61,7 +61,7 @@ namespace Exiled.Events.Patches.Generic
                 if (string.IsNullOrEmpty(logMessage))
                     return;
 
-                string directory = Path.Combine(Paths.ATOMILED, "Logs");
+                string directory = Path.Combine(Paths.Atomiled, "Logs");
 
                 if (!Directory.Exists(directory))
                     Directory.CreateDirectory(directory);

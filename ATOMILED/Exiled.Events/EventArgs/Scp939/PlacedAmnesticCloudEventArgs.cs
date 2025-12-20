@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp939
+namespace Atomiled.Events.EventArgs.Scp939
 {
     using API.Features;
     using API.Features.Hazards;

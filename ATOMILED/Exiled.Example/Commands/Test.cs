@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Commands
+namespace Atomiled.Example.Commands
 {
     using System;
 
     using CommandSystem;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pickups;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pickups;
 
     /// <summary>
     /// This is an example of how commands should be made.

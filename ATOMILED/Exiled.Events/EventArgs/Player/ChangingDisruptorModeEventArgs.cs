@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.Events.EventArgs.Interfaces;
     using InventorySystem.Items;
 
     /// <summary>

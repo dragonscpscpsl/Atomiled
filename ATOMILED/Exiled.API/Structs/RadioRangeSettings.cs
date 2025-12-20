@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Structs
+namespace Atomiled.API.Structs
 {
     /// <summary>
     /// Settings for specific radio ranges.

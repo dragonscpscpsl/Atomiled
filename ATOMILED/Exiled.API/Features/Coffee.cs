@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Interfaces;
     using UnityEngine;
 
     using BaseCoffee = global::Coffee;

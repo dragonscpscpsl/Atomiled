@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags.Enums
+namespace Atomiled.CreditTags.Enums
 {
     /// <summary>
     /// Represents all the ways a rank can be shown.

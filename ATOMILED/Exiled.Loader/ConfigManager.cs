@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.Collections.Generic;
@@ -17,8 +17,8 @@ namespace Exiled.Loader
     using API.Extensions;
     using API.Interfaces;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
 
     using LabApi.Loader.Features.Plugins.Configuration;
     using YamlDotNet.Core;
@@ -296,7 +296,7 @@ namespace Exiled.Loader
         {
             try
             {
-                // this is 10x more readable than Exileds current config management system LOL
+                // this is 10x more readable than Atomileds current config management system LOL
                 foreach (LabPlugin plugin in Loader.LabAPIPlugins.Keys)
                 {
                     LoadLabAPIConfig(plugin);

@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using API.Features;
 
-    using Exiled.API.Features.Items;
+    using Atomiled.API.Features.Items;
     using Interfaces;
     using InventorySystem.Items.Radio;
 

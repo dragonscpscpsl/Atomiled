@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using API.Features;
     using API.Features.Items;
 
-    using Exiled.API.Features.Items.FirearmModules.Primary;
+    using Atomiled.API.Features.Items.FirearmModules.Primary;
 
     using Interfaces;
 

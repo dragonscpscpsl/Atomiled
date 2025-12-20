@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.GHApi.Settings
+namespace Atomiled.Loader.GHApi.Settings
 {
     using UnityEngine;
 

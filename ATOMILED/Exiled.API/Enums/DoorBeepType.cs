@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
-    using Exiled.API.Features.Doors;
+    using Atomiled.API.Features.Doors;
 
     /// <summary>
     /// Door beep types.

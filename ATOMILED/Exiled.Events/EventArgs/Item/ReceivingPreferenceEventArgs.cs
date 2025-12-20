@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Item
+namespace Atomiled.Events.EventArgs.Item
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -13,8 +13,8 @@ namespace Exiled.Events.EventArgs.Item
     using API.Features;
     using API.Structs;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
 
     using Interfaces;
 

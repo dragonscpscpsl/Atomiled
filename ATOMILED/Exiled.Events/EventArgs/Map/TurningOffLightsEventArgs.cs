@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
     using Interfaces;
 

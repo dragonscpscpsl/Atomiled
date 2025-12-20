@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
     using Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Interfaces;
     using MapGeneration;
     using PlayerRoles.PlayableScps.Scp079.Cameras;
     using UnityEngine;
@@ -143,6 +143,11 @@ namespace Exiled.API.Features
             ["GATE A ELEVATORS"] = CameraType.EzGateAElevators,
             ["GATE B INTERIOR"] = CameraType.EzGateBInterior,
             ["GATE B SIDE"] = CameraType.EzGateBSide,
+            ["GATE A STAIRWELL"] = CameraType.EzGateAStairwell,
+            ["GATE A UPPER"] = CameraType.EzGateAUpper,
+            ["LOADING BAY"] = CameraType.HczLoadingBay,
+            ["HCZ LOADING RAMP"] = CameraType.HczLoadingBayRamp,
+            ["STAIRWELL"] = CameraType.HczLoadingBayStairwell,
 
             // CustomCamera
             ["EZ ARM CAMERA TOY"] = CameraType.EzArmCameraToy,

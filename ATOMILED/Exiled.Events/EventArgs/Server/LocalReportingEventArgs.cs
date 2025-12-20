@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
     using API.Features;
 

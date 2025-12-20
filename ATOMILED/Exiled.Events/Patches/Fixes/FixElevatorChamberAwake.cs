@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
-    using Exiled.Events.Attributes;
+    using Atomiled.Events.Attributes;
     using HarmonyLib;
     using Interactables.Interobjects;
 

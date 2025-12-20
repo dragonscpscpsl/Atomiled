@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Commands
+namespace Atomiled.CustomItems.Commands
 {
     using System;
     using System.Text;
 
     using CommandSystem;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Spawn;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Spawn;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Permissions.Extensions;
 
     /// <summary>
     /// The command to view info about a specific item.

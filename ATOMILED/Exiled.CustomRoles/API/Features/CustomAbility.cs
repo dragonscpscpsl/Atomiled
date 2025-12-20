@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features
+namespace Atomiled.CustomRoles.API.Features
 {
     using System;
     using System.Collections.Generic;
@@ -13,9 +13,9 @@ namespace Exiled.CustomRoles.API.Features
     using System.Linq;
     using System.Reflection;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Attributes;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Attributes;
+    using Atomiled.API.Interfaces;
 
     using YamlDotNet.Serialization;
 

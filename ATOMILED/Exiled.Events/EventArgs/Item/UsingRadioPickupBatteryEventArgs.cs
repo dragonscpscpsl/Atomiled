@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Item
+namespace Atomiled.Events.EventArgs.Item
 {
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all information before radio pickup battery drains.

@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups.Projectiles
+namespace Atomiled.API.Features.Pickups.Projectiles
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Interfaces;
 
     using InventorySystem.Items.ThrowableProjectiles;
 

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Roles
+namespace Atomiled.API.Features.Roles
 {
     using PlayerRoles.Voice;
 

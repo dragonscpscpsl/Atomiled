@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp173
+namespace Atomiled.Events.EventArgs.Scp173
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     /// <summary>
     /// Contains all the information before SCP-173 is observed.
@@ -20,10 +20,10 @@ namespace Exiled.Events.EventArgs.Scp173
         /// Initializes a new instance of the <see cref="BeingObservedEventArgs" /> class.
         /// </summary>
         /// <param name="target">
-        /// The <see cref="Exiled.API.Features.Player"/> instance of the target.
+        /// The <see cref="Atomiled.API.Features.Player"/> instance of the target.
         /// </param>
         /// <param name="scp173">
-        /// The <see cref="Exiled.API.Features.Player"/> instance of the SCP-173.
+        /// The <see cref="Atomiled.API.Features.Player"/> instance of the SCP-173.
         /// </param>
         /// <param name="isAllowed">
         /// Whether the target will be counted as observing the SCP-173.

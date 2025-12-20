@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
     using System.Collections.Generic;
     using System.Linq;
 
     using API.Features;
-    using Exiled.API.Features.Lockers;
+    using Atomiled.API.Features.Lockers;
 
     using MEC;
 

@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using Achievements;
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
     using Interfaces;
 
     /// <summary>

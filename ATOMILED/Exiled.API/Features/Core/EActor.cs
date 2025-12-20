@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core
+namespace Atomiled.API.Features.Core
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features.Core.Interfaces;
-    using Exiled.API.Features.DynamicEvents;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features.Core.Interfaces;
+    using Atomiled.API.Features.DynamicEvents;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Interfaces;
     using MEC;
 
     using UnityEngine;

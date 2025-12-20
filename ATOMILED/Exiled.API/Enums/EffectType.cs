@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     using System;
 
-    using Exiled.API.Extensions;
+    using Atomiled.API.Extensions;
 
     /// <summary>
     /// Status effects as enum.
@@ -263,25 +263,25 @@ namespace Exiled.API.Enums
         /// <summary>
         /// Makes you a flamingo.
         /// </summary>
-        [Obsolete("Only availaible for Christmas and AprilFools.")]
+        // [Obsolete("Only availaible for Christmas and AprilFools.")]
         BecomingFlamingo,
 
         /// <summary>
         /// Makes you a Child after eating Cake.
         /// </summary>
-        [Obsolete("Only availaible for Christmas and AprilFools.")]
+        // [Obsolete("Only availaible for Christmas and AprilFools.")]
         Scp559,
 
         /// <summary>
         /// Scp956 found you.
         /// </summary>
-        [Obsolete("Only availaible for Christmas and AprilFools.")]
+        // [Obsolete("Only availaible for Christmas and AprilFools.")]
         Scp956Target,
 
         /// <summary>
         /// you are snowed.
         /// </summary>
-        [Obsolete("Only availaible for Christmas and AprilFools.")]
+        // [Obsolete("Only availaible for Christmas and AprilFools.")]
         Snowed,
 
         /// <summary>
@@ -390,5 +390,20 @@ namespace Exiled.API.Enums
         /// <see cref="CustomPlayerEffects.Scp1509Resurrected"/>.
         /// </summary>
         Scp1509Resurrected,
+
+        /// <summary>
+        /// <see cref="CustomPlayerEffects.FocusedVision"/>.
+        /// </summary>
+        FocusedVision,
+
+        /// <summary>
+        /// <see cref="CustomPlayerEffects.AnomalousRegeneration"/>.
+        /// </summary>
+        AnomalousRegeneration,
+
+        /// <summary>
+        /// <see cref="CustomPlayerEffects.AnomalousTarget"/>.
+        /// </summary>
+        AnomalousTarget,
     }
 }

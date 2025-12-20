@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     using PlayerRoles.Ragdolls;
 

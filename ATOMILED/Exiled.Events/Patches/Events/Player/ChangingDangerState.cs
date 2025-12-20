@@ -8,18 +8,18 @@
 #pragma warning disable SA1313 // Parameter names should begin with lower-case letter
 #pragma warning disable SA1402 // File may only contain a single type
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using CustomPlayerEffects.Danger;
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
     using HarmonyLib;
 
     using static HarmonyLib.AccessTools;

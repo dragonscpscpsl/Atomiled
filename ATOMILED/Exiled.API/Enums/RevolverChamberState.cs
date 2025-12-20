@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
-    using Exiled.API.Features.Items.FirearmModules.Primary;
+    using Atomiled.API.Features.Items.FirearmModules.Primary;
 
     /// <summary>
     /// States for chamber in revolver cylindric magazine.

@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.EventArgs
+namespace Atomiled.CustomItems.API.EventArgs
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Events.EventArgs.Player;
 
     using PlayerRoles;
 

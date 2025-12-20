@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles
+namespace Atomiled.CustomRoles
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.CustomRoles.API.Features.Parsers;
-    using Exiled.CustomRoles.Events;
-    using Exiled.Loader;
-    using Exiled.Loader.Features.Configs.CustomConverters;
+    using Atomiled.API.Features;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.CustomRoles.API.Features.Parsers;
+    using Atomiled.CustomRoles.Events;
+    using Atomiled.Loader;
+    using Atomiled.Loader.Features.Configs.CustomConverters;
 
     using YamlDotNet.Serialization;
     using YamlDotNet.Serialization.NamingConventions;
@@ -63,20 +63,20 @@ namespace Exiled.CustomRoles
             if (Config.UseKeypressActivation)
                 keypressActivator = new();
 
-            Exiled.Events.Handlers.Player.Spawned += playerHandlers.OnSpawned;
-            Exiled.Events.Handlers.Player.SpawningRagdoll += playerHandlers.OnSpawningRagdoll;
+            Atomiled.Events.Handlers.Player.Spawned += playerHandlers.OnSpawned;
+            Atomiled.Events.Handlers.Player.SpawningRagdoll += playerHandlers.OnSpawningRagdoll;
 
-            Exiled.Events.Handlers.Server.WaitingForPlayers += playerHandlers.OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers += playerHandlers.OnWaitingForPlayers;
             base.OnEnabled();
         }
 
         /// <inheritdoc/>
         public override void OnDisabled()
         {
-            Exiled.Events.Handlers.Player.Spawned -= playerHandlers!.OnSpawned;
-            Exiled.Events.Handlers.Player.SpawningRagdoll -= playerHandlers!.OnSpawningRagdoll;
+            Atomiled.Events.Handlers.Player.Spawned -= playerHandlers!.OnSpawned;
+            Atomiled.Events.Handlers.Player.SpawningRagdoll -= playerHandlers!.OnSpawningRagdoll;
 
-            Exiled.Events.Handlers.Server.WaitingForPlayers -= playerHandlers!.OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers -= playerHandlers!.OnWaitingForPlayers;
 
             keypressActivator = null;
             base.OnDisabled();

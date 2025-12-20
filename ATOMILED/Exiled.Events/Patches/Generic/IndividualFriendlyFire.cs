@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
-    using Exiled.API.Extensions;
+    using Atomiled.API.Extensions;
 
 #pragma warning disable SA1402
     using System;

@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using API.Features;
-    using Exiled.API.Features.Doors;
+    using Atomiled.API.Features.Doors;
     using Interactables;
     using Interactables.Interobjects.DoorUtils;
     using Interfaces;

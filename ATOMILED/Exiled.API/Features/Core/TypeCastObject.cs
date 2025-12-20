@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core
+namespace Atomiled.API.Features.Core
 {
     /// <summary>
     /// The interface which allows defined objects to be cast to each other.

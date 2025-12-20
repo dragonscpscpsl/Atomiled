@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Interfaces
+namespace Atomiled.API.Interfaces
 {
     using UnityEngine;
 

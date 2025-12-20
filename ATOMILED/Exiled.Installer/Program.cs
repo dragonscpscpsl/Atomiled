@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Installer
+namespace Atomiled.Installer
 {
     using System;
     using System.Collections.Generic;
@@ -37,12 +37,18 @@ namespace Exiled.Installer
         /// Exiled path that is routed to exiled root path.
         /// </summary>
         Exiled,
+
+        /// <summary>
+        /// Atomiled path that is routed to atomiled root path.
+        /// </summary>
+        Atomiled,
     }
 
     internal static class Program
     {
-        private const long RepoID = 833723500;
-        private const string ExiledAssetName = "exiled.tar.gz";
+        private const long RepoID = 0;
+        private const string AtomiledAssetName = "atomiled.tar.gz";
+        private const string orAtomiledAssetName = "Atomiled.tar.gz";
 
         // This is the lowest version the installer will check to install
         private static readonly Version VersionLimit = new("8.0.0");
@@ -80,7 +86,7 @@ namespace Exiled.Installer
                 }
 
                 Console.WriteLine(Resources.Program_MainSafe_AppData_folder___0_, args.AppData.FullName);
-                Console.WriteLine(Resources.Program_MainSafe_Exiled_folder___0_, args.Exiled.FullName);
+                Console.WriteLine(Resources.Program_MainSafe_Atomiled_folder___0_, args.Atomiled.FullName);
 
                 if (args.GitHubToken is not null)
                 {
@@ -122,7 +128,7 @@ namespace Exiled.Installer
                 Console.WriteLine(Resources.Program_MainSafe_Release_found_);
                 Console.WriteLine(FormatRelease(targetRelease!));
 
-                ReleaseAsset? exiledAsset = targetRelease!.Assets.FirstOrDefault(a => a.Name.Equals(ExiledAssetName, StringComparison.OrdinalIgnoreCase));
+                ReleaseAsset? exiledAsset = targetRelease!.Assets.FirstOrDefault(a => a.Name.Equals(AtomiledAssetName, StringComparison.OrdinalIgnoreCase));
                 if (exiledAsset is null)
                 {
                     Console.WriteLine(Resources.Program_MainSafe_____ASSETS____);
@@ -171,7 +177,7 @@ namespace Exiled.Installer
                     r => Version.TryParse(r.TagName, out Version version)
                          && version > VersionLimit);
 
-            return releases.OrderByDescending(r => r.CreatedAt.Ticks);
+            return releases.OrderByDescending(r => r.PublishedAt);
         }
 
         private static string FormatRelease(Release r)
@@ -224,8 +230,8 @@ namespace Exiled.Installer
                         ResolvePath(entry.Name, args.AppData.FullName, out string path);
                         ExtractEntry(tarInputStream, entry, path);
                         break;
-                    case PathResolution.Exiled:
-                        ResolvePath(entry.Name, args.Exiled.FullName, out path);
+                    case PathResolution.Atomiled:
+                        ResolvePath(entry.Name, args.Atomiled.FullName, out path);
                         ExtractEntry(tarInputStream, entry, path);
                         break;
                     default:

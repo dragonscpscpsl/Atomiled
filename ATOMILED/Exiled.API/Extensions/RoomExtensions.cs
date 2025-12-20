@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
 
     using MapGeneration;
 

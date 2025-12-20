@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items.Keycards
+namespace Atomiled.API.Features.Items.Keycards
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pickups.Keycards;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups.Keycards;
     using Interactables.Interobjects.DoorUtils;
     using InventorySystem.Items;
     using InventorySystem.Items.Keycards;

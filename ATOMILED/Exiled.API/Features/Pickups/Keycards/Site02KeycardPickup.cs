@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups.Keycards
+namespace Atomiled.API.Features.Pickups.Keycards
 {
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Interfaces.Keycards;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Interfaces.Keycards;
     using Interactables.Interobjects.DoorUtils;
     using InventorySystem.Items.Keycards;
     using InventorySystem.Items.Pickups;

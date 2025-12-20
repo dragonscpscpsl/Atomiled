@@ -5,19 +5,19 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp1507
+namespace Atomiled.Events.EventArgs.Scp1507
 {
     using System;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.Events.EventArgs.Interfaces;
     using InventorySystem.Items;
 
     /// <summary>
     /// Contains all information before SCP-1507 screams.
     /// </summary>
-    [Obsolete("Only availaible for Christmas and AprilFools.")]
+    // [Obsolete("Only availaible for Christmas and AprilFools.")]
     public class UsingTapeEventArgs : IPlayerEvent, IItemEvent, IDeniableEvent
     {
         /// <summary>

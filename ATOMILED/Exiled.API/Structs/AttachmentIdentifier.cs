@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Structs
+namespace Atomiled.API.Structs
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
 
     using InventorySystem.Items.Firearms.Attachments;
     using InventorySystem.Items.Firearms.Attachments.Components;

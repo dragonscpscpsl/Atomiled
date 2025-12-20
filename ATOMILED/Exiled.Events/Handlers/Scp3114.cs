@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
 #pragma warning disable SA1623 // Property summary documentation should match accessors
 
-    using Exiled.Events.EventArgs.Scp3114;
-    using Exiled.Events.Features;
+    using Atomiled.Events.EventArgs.Scp3114;
+    using Atomiled.Events.Features;
 
     /// <summary>
     /// Scp3114 related events.

@@ -5,29 +5,30 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
     using System.Collections.Generic;
     using System.Linq;
 
     using CentralAuth;
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Core.UserSettings;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Roles;
-    using Exiled.API.Structs;
-    using Exiled.Events.EventArgs.Player;
-    using Exiled.Events.EventArgs.Scp049;
-    using Exiled.Loader;
-    using Exiled.Loader.Features;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Core.UserSettings;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.API.Structs;
+    using Atomiled.Events.EventArgs.Player;
+    using Atomiled.Events.EventArgs.Scp049;
+    using Atomiled.Loader;
+    using Atomiled.Loader.Features;
     using InventorySystem;
     using InventorySystem.Items.Firearms.Attachments;
     using InventorySystem.Items.Firearms.Attachments.Components;
     using InventorySystem.Items.Usables;
     using InventorySystem.Items.Usables.Scp244.Hypothermia;
+    using InventorySystem.Items.Usables.Scp330;
     using PlayerRoles;
     using PlayerRoles.FirstPersonControl;
     using PlayerRoles.RoleAssign;
@@ -122,6 +123,13 @@ namespace Exiled.Events.Handlers.Internal
             {
                 player.SetFakeScale(player.Scale, new List<Player>() { ev.Player });
             }
+        }
+
+        /// <inheritdoc cref="Handlers.Warhead.OnDetonated()"/>
+        public static void OnWarheadDetonated()
+        {
+            // fix for black candy
+            CandyBlack.Outcomes.RemoveAll(outcome => outcome is TeleportOutcome);
         }
 
         private static void GenerateAttachments()

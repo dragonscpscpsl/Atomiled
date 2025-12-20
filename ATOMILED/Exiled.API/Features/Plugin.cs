@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System.Linq;
 
@@ -56,6 +56,9 @@ namespace Exiled.API.Features
 
         /// <inheritdoc/>
         public virtual Version Version { get; }
+
+        /// <inheritdoc/>
+        public virtual Version RequiredAtomiledVersion { get; } = typeof(IPlugin<>).Assembly.GetName().Version;
 
         /// <inheritdoc/>
         public virtual Version RequiredExiledVersion { get; } = typeof(IPlugin<>).Assembly.GetName().Version;

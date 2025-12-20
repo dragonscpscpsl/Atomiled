@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.Features
+namespace Atomiled.CustomItems.API.Features
 {
     using System;
     using System.Collections;
@@ -13,19 +13,19 @@ namespace Exiled.CustomItems.API.Features
     using System.Linq;
     using System.Reflection;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Attributes;
-    using Exiled.API.Features.Lockers;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Spawn;
-    using Exiled.API.Interfaces;
-    using Exiled.CustomItems.API.EventArgs;
-    using Exiled.Events.EventArgs.Player;
-    using Exiled.Events.EventArgs.Scp914;
-    using Exiled.Loader;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Attributes;
+    using Atomiled.API.Features.Lockers;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Spawn;
+    using Atomiled.API.Interfaces;
+    using Atomiled.CustomItems.API.EventArgs;
+    using Atomiled.Events.EventArgs.Player;
+    using Atomiled.Events.EventArgs.Scp914;
+    using Atomiled.Loader;
     using InventorySystem.Items.Pickups;
     using MEC;
     using PlayerRoles;
@@ -35,11 +35,11 @@ namespace Exiled.CustomItems.API.Features
     using static CustomItems;
 
     using BaseFirearmPickup = InventorySystem.Items.Firearms.FirearmPickup;
-    using Firearm = Exiled.API.Features.Items.Firearm;
-    using Item = Exiled.API.Features.Items.Item;
-    using Map = Exiled.API.Features.Map;
-    using Player = Exiled.API.Features.Player;
-    using UpgradingPickupEventArgs = Exiled.Events.EventArgs.Scp914.UpgradingPickupEventArgs;
+    using Firearm = Atomiled.API.Features.Items.Firearm;
+    using Item = Atomiled.API.Features.Items.Item;
+    using Map = Atomiled.API.Features.Map;
+    using Player = Atomiled.API.Features.Player;
+    using UpgradingPickupEventArgs = Atomiled.Events.EventArgs.Scp914.UpgradingPickupEventArgs;
 
     /// <summary>
     /// The Custom Item base class.
@@ -778,18 +778,18 @@ namespace Exiled.CustomItems.API.Features
         /// </summary>
         protected virtual void SubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.Dying += OnInternalOwnerDying;
-            Exiled.Events.Handlers.Player.DroppingItem += OnInternalDroppingItem;
-            Exiled.Events.Handlers.Player.DroppingAmmo += OnInternalDroppingAmmo;
-            Exiled.Events.Handlers.Player.ChangingItem += OnInternalChanging;
-            Exiled.Events.Handlers.Player.Escaping += OnInternalOwnerEscaping;
-            Exiled.Events.Handlers.Player.PickingUpItem += OnInternalPickingUp;
-            Exiled.Events.Handlers.Player.ItemAdded += OnInternalItemAdded;
-            Exiled.Events.Handlers.Scp914.UpgradingPickup += OnInternalUpgradingPickup;
-            Exiled.Events.Handlers.Server.WaitingForPlayers += OnWaitingForPlayers;
-            Exiled.Events.Handlers.Player.Handcuffing += OnInternalOwnerHandcuffing;
-            Exiled.Events.Handlers.Player.ChangingRole += OnInternalOwnerChangingRole;
-            Exiled.Events.Handlers.Scp914.UpgradingInventoryItem += OnInternalUpgradingInventoryItem;
+            Atomiled.Events.Handlers.Player.Dying += OnInternalOwnerDying;
+            Atomiled.Events.Handlers.Player.DroppingItem += OnInternalDroppingItem;
+            Atomiled.Events.Handlers.Player.DroppingAmmo += OnInternalDroppingAmmo;
+            Atomiled.Events.Handlers.Player.ChangingItem += OnInternalChanging;
+            Atomiled.Events.Handlers.Player.Escaping += OnInternalOwnerEscaping;
+            Atomiled.Events.Handlers.Player.PickingUpItem += OnInternalPickingUp;
+            Atomiled.Events.Handlers.Player.ItemAdded += OnInternalItemAdded;
+            Atomiled.Events.Handlers.Scp914.UpgradingPickup += OnInternalUpgradingPickup;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers += OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Player.Handcuffing += OnInternalOwnerHandcuffing;
+            Atomiled.Events.Handlers.Player.ChangingRole += OnInternalOwnerChangingRole;
+            Atomiled.Events.Handlers.Scp914.UpgradingInventoryItem += OnInternalUpgradingInventoryItem;
         }
 
         /// <summary>
@@ -797,18 +797,18 @@ namespace Exiled.CustomItems.API.Features
         /// </summary>
         protected virtual void UnsubscribeEvents()
         {
-            Exiled.Events.Handlers.Player.Dying -= OnInternalOwnerDying;
-            Exiled.Events.Handlers.Player.DroppingItem -= OnInternalDroppingItem;
-            Exiled.Events.Handlers.Player.DroppingAmmo -= OnInternalDroppingAmmo;
-            Exiled.Events.Handlers.Player.ChangingItem -= OnInternalChanging;
-            Exiled.Events.Handlers.Player.Escaping -= OnInternalOwnerEscaping;
-            Exiled.Events.Handlers.Player.PickingUpItem -= OnInternalPickingUp;
-            Exiled.Events.Handlers.Player.ItemAdded -= OnInternalItemAdded;
-            Exiled.Events.Handlers.Scp914.UpgradingPickup -= OnInternalUpgradingPickup;
-            Exiled.Events.Handlers.Server.WaitingForPlayers -= OnWaitingForPlayers;
-            Exiled.Events.Handlers.Player.Handcuffing -= OnInternalOwnerHandcuffing;
-            Exiled.Events.Handlers.Player.ChangingRole -= OnInternalOwnerChangingRole;
-            Exiled.Events.Handlers.Scp914.UpgradingInventoryItem -= OnInternalUpgradingInventoryItem;
+            Atomiled.Events.Handlers.Player.Dying -= OnInternalOwnerDying;
+            Atomiled.Events.Handlers.Player.DroppingItem -= OnInternalDroppingItem;
+            Atomiled.Events.Handlers.Player.DroppingAmmo -= OnInternalDroppingAmmo;
+            Atomiled.Events.Handlers.Player.ChangingItem -= OnInternalChanging;
+            Atomiled.Events.Handlers.Player.Escaping -= OnInternalOwnerEscaping;
+            Atomiled.Events.Handlers.Player.PickingUpItem -= OnInternalPickingUp;
+            Atomiled.Events.Handlers.Player.ItemAdded -= OnInternalItemAdded;
+            Atomiled.Events.Handlers.Scp914.UpgradingPickup -= OnInternalUpgradingPickup;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers -= OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Player.Handcuffing -= OnInternalOwnerHandcuffing;
+            Atomiled.Events.Handlers.Player.ChangingRole -= OnInternalOwnerChangingRole;
+            Atomiled.Events.Handlers.Scp914.UpgradingInventoryItem -= OnInternalUpgradingInventoryItem;
         }
 
         /// <summary>

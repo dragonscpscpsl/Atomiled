@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using CommandSystem;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Interfaces;
     using LabApi.Features.Enums;
     using RemoteAdmin;
 

@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Permissions.Commands.Permissions
+namespace Atomiled.Permissions.Commands.Permissions
 {
     using System;
     using System.Text;
 
     using CommandSystem;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
     /// <summary>
     /// Handles commands about permissions.

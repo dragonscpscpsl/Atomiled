@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
     using System;
     using System.Collections.Generic;
@@ -14,12 +14,12 @@ namespace Exiled.API.Features.Items
     using CameraShaking;
     using Enums;
 
-    using Exiled.API.Features.Items.FirearmModules;
-    using Exiled.API.Features.Items.FirearmModules.Barrel;
-    using Exiled.API.Features.Items.FirearmModules.Primary;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Interfaces;
-    using Exiled.API.Structs;
+    using Atomiled.API.Features.Items.FirearmModules;
+    using Atomiled.API.Features.Items.FirearmModules.Barrel;
+    using Atomiled.API.Features.Items.FirearmModules.Primary;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Interfaces;
+    using Atomiled.API.Structs;
     using Extensions;
     using InventorySystem.Items.Autosync;
     using InventorySystem.Items.Firearms.Attachments;

@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Interfaces;
     using InventorySystem.Items.Scp1509;
     using PlayerRoles;
 

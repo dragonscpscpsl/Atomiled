@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
-    using Exiled.API.Enums;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     using static LightContainmentZoneDecontamination.DecontaminationController.DecontaminationPhase;
 

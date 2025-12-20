@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Hazards
+namespace Atomiled.API.Features.Hazards
 {
     using BaseHazard = global::Hazards.TemporaryHazard;
 

@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Events
+namespace Atomiled.Example.Events
 {
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Scp914;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Scp914;
 
     /// <summary>
     /// Handles SCP-914 events.
     /// </summary>
     internal sealed class Scp914Handler
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Scp914.OnUpgradingPickup(UpgradingPickupEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Scp914.OnUpgradingPickup(UpgradingPickupEventArgs)"/>
         public void OnUpgradingItem(UpgradingPickupEventArgs ev)
         {
             Log.Info($"Item being upgraded\n[Type]: {ev.Pickup.Type}\n[Weight]: {ev.Pickup.Weight}\n[Output Position]: {ev.OutputPosition}\n[Knob Setting]: {ev.KnobSetting}");

@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags
+namespace Atomiled.CreditTags
 {
     using System.ComponentModel;
 
-    using Exiled.API.Interfaces;
-    using Exiled.CreditTags.Enums;
+    using Atomiled.API.Interfaces;
+    using Atomiled.CreditTags.Enums;
 
     /// <inheritdoc />
     public sealed class Config : IConfig

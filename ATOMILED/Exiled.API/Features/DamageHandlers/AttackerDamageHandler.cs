@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.DamageHandlers
+namespace Atomiled.API.Features.DamageHandlers
 {
     using CustomPlayerEffects;
 

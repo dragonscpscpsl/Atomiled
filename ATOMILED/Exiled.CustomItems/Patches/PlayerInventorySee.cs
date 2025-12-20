@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Patches
+namespace Atomiled.CustomItems.Patches
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -14,9 +14,9 @@ namespace Exiled.CustomItems.Patches
 
     using CommandSystem.Commands.RemoteAdmin;
 
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pools;
-    using Exiled.CustomItems.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.CustomItems.API.Features;
 
     using HarmonyLib;
 

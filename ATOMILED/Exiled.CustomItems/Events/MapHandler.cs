@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.Events
+namespace Atomiled.CustomItems.Events
 {
-    using Exiled.API.Features;
-    using Exiled.CustomItems.API.Features;
+    using Atomiled.API.Features;
+    using Atomiled.CustomItems.API.Features;
     using MEC;
 
     /// <summary>
@@ -16,7 +16,7 @@ namespace Exiled.CustomItems.Events
     /// </summary>
     internal sealed class MapHandler
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Server.WaitingForPlayers"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Server.WaitingForPlayers"/>
         public void OnWaitingForPlayers()
         {
             Timing.CallDelayed(2, () => // The delay is necessary because the generation of the lockers takes time, due to the way they are made in the base game.

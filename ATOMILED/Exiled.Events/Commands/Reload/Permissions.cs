@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.Reload
+namespace Atomiled.Events.Commands.Reload
 {
     using System;
 
     using CommandSystem;
 
-    using Exiled.Events.Handlers;
-    using Exiled.Permissions.Extensions;
+    using Atomiled.Events.Handlers;
+    using Atomiled.Permissions.Extensions;
 
     /// <summary>
     /// The reload permissions command.
@@ -43,7 +43,7 @@ namespace Exiled.Events.Commands.Reload
                 return false;
             }
 
-            Exiled.Permissions.Extensions.Permissions.Reload();
+            Atomiled.Permissions.Extensions.Permissions.Reload();
             Server.OnReloadedPermissions();
 
             response = "Permissions have been reloaded successfully!";

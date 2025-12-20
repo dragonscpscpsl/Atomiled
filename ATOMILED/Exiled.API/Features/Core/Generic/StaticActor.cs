@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.Generic
+namespace Atomiled.API.Features.Core.Generic
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Core;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Core;
 
     /// <summary>
     /// This is a generic Singleton implementation for components.

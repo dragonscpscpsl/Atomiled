@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Features.Configs.CustomConverters
+namespace Atomiled.Loader.Features.Configs.CustomConverters
 {
     using System;
     using System.Collections.Generic;

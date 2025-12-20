@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Events
+namespace Atomiled.Example.Events
 {
-    using Exiled.API.Features;
-    using Exiled.Events.EventArgs.Scp096;
+    using Atomiled.API.Features;
+    using Atomiled.Events.EventArgs.Scp096;
 
     /// <summary>
     /// Handles SCP-096 events.
     /// </summary>
     internal sealed class Scp096Handler
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Scp096.OnAddingTarget(AddingTargetEventArgs)"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Scp096.OnAddingTarget(AddingTargetEventArgs)"/>
         public void OnAddingTarget(AddingTargetEventArgs ev)
         {
             Log.Info($"{ev.Target.Nickname} is being added to {ev.Player.Nickname} targets!");

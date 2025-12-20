@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Interfaces;
     using Interactables.Interobjects.DoorUtils;
     using InventorySystem.Items.Keycards;
 

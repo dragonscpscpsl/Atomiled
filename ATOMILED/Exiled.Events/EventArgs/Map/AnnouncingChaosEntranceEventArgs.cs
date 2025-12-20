@@ -1,16 +1,16 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="AnnouncingChaosEntranceEventArgs.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
     using System.Text;
 
-    using Exiled.API.Features.Waves;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Waves;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Respawning.Announcements;
 
     /// <summary>

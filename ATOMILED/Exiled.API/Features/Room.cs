@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
     using Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Interfaces;
     using MapGeneration;
     using MapGeneration.Holidays;
     using MapGeneration.Rooms;
@@ -506,6 +506,7 @@ namespace Exiled.API.Features
                 "HCZ_ChkpB" => RoomType.HczElevatorB,
                 "HCZ_127" => RoomType.Hcz127,
                 "HCZ_ServerRoom" => RoomType.HczServerRoom,
+                "HCZ_Intersection_Ramp" => RoomType.HczLoadingBay,
                 "EZ_GateA" => RoomType.EzGateA,
                 "EZ_GateB" => RoomType.EzGateB,
                 "EZ_ThreeWay" => RoomType.EzTCross,

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.Reflection;

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp173
+namespace Atomiled.Events.Patches.Events.Scp173
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -14,8 +14,8 @@ namespace Exiled.Events.Patches.Events.Scp173
     using API.Features;
     using API.Features.Pools;
 
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp173;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp173;
 
     using HarmonyLib;
 

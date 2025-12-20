@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers.Internal
+namespace Atomiled.Events.Handlers.Internal
 {
-    using Exiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups;
     using InventorySystem.Items.Pickups;
 
     /// <summary>

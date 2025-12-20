@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
 
     using HarmonyLib;
 
@@ -20,7 +20,7 @@ namespace Exiled.Events.Patches.Generic
 
     using static HarmonyLib.AccessTools;
 
-    using ExiledEvents = Exiled.Events.Events;
+    using ExiledEvents = Atomiled.Events.Events;
     using Scp173Role = API.Features.Roles.Scp173Role;
 
     /// <summary>

@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Permissions
+namespace Atomiled.Permissions
 {
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     using MEC;
 

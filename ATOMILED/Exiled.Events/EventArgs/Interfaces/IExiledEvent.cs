@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Interfaces
+namespace Atomiled.Events.EventArgs.Interfaces
 {
     /// <summary>
     /// The base Exiled Event Args interface to be used by all other event arg interfaces/classes.

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Server
+namespace Atomiled.Events.Patches.Events.Server
 {
     using System;
     using System.Collections.Generic;
@@ -13,10 +13,10 @@ namespace Exiled.Events.Patches.Events.Server
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.API.Features.Waves;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Server;
-    using Exiled.Events.Handlers;
+    using Atomiled.API.Features.Waves;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Server;
+    using Atomiled.Events.Handlers;
     using HarmonyLib;
     using PlayerRoles;
     using Respawning.NamingRules;

@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
     using API.Enums;
     using API.Features;
-    using Exiled.API.Extensions;
+    using Atomiled.API.Extensions;
     using Interfaces;
 
     using PlayerRoles;

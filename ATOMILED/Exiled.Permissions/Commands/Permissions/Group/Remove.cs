@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Permissions.Commands.Permissions.Group
+namespace Atomiled.Permissions.Commands.Permissions.Group
 {
     using System;
 

@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.StateMachine
+namespace Atomiled.API.Features.Core.StateMachine
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Core.Attributes;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Core.Attributes;
     using UnityEngine;
 
     /// <summary>

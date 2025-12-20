@@ -5,22 +5,22 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.Features
+namespace Atomiled.CustomItems.API.Features
 {
     using System;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Features.Lockers;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Interfaces.Keycards;
-    using Exiled.Events.EventArgs.Item;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Lockers;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Interfaces.Keycards;
+    using Atomiled.Events.EventArgs.Item;
+    using Atomiled.Events.EventArgs.Player;
     using InventorySystem.Items.Keycards;
     using UnityEngine;
 
@@ -195,9 +195,9 @@ namespace Exiled.CustomItems.API.Features
         {
             base.SubscribeEvents();
 
-            Exiled.Events.Handlers.Player.InteractingDoor += OnInternalInteractingDoor;
-            Exiled.Events.Handlers.Player.InteractingLocker += OnInternalInteractingLocker;
-            Exiled.Events.Handlers.Item.KeycardInteracting += OnInternalKeycardInteracting;
+            Atomiled.Events.Handlers.Player.InteractingDoor += OnInternalInteractingDoor;
+            Atomiled.Events.Handlers.Player.InteractingLocker += OnInternalInteractingLocker;
+            Atomiled.Events.Handlers.Item.KeycardInteracting += OnInternalKeycardInteracting;
         }
 
         /// <inheritdoc/>
@@ -205,9 +205,9 @@ namespace Exiled.CustomItems.API.Features
         {
             base.UnsubscribeEvents();
 
-            Exiled.Events.Handlers.Player.InteractingDoor -= OnInternalInteractingDoor;
-            Exiled.Events.Handlers.Player.InteractingLocker -= OnInternalInteractingLocker;
-            Exiled.Events.Handlers.Item.KeycardInteracting -= OnInternalKeycardInteracting;
+            Atomiled.Events.Handlers.Player.InteractingDoor -= OnInternalInteractingDoor;
+            Atomiled.Events.Handlers.Player.InteractingLocker -= OnInternalInteractingLocker;
+            Atomiled.Events.Handlers.Item.KeycardInteracting -= OnInternalKeycardInteracting;
         }
 
         private void OnInternalKeycardInteracting(KeycardInteractingEventArgs ev)

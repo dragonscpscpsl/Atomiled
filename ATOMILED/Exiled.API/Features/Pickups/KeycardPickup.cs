@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Interfaces;
 
     using InventorySystem.Items;
     using InventorySystem.Items.Keycards;

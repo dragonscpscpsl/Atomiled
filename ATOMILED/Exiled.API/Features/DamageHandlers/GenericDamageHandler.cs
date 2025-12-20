@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.DamageHandlers
+namespace Atomiled.API.Features.DamageHandlers
 {
     using System;
 
     using Enums;
-    using Exiled.API.Features.Pickups.Projectiles;
+    using Atomiled.API.Features.Pickups.Projectiles;
 
     using Footprinting;
     using InventorySystem.Items.Scp1509;

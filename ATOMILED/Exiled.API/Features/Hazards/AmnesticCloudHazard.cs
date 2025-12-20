@@ -5,9 +5,9 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-namespace Exiled.API.Features.Hazards
+namespace Atomiled.API.Features.Hazards
 {
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
     using PlayerRoles.PlayableScps.Scp939;
 
     /// <summary>

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
 #pragma warning disable SA1402 // File may only contain a single type
 #pragma warning disable IDE0060
@@ -16,8 +16,8 @@ namespace Exiled.Events.Patches.Events.Player
     using API.Features;
     using API.Features.Pools;
     using EventArgs.Player;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.Attributes;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.Attributes;
     using HarmonyLib;
     using LabApi.Events.Arguments.PlayerEvents;
 

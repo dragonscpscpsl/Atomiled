@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
     using System;
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Waves;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Waves;
+    using Atomiled.Events.EventArgs.Interfaces;
     using PlayerRoles;
     using PlayerRoles.Spectating;
     using Respawning;

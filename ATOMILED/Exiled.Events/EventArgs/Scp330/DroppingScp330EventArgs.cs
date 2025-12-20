@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp330
+namespace Atomiled.Events.EventArgs.Scp330
 {
     using API.Features;
     using API.Features.Items;

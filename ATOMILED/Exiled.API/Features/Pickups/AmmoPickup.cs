@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Interfaces;
 
     using BaseAmmo = InventorySystem.Items.Firearms.Ammo.AmmoPickup;
 

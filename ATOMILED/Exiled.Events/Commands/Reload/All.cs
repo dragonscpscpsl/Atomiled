@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Commands.Reload
+namespace Atomiled.Events.Commands.Reload
 {
     using System;
 

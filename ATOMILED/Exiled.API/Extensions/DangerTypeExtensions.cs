@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Extensions
+namespace Atomiled.API.Extensions
 {
     using System;
     using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace Exiled.API.Extensions
     using System.Linq;
 
     using CustomPlayerEffects.Danger;
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
 
     /// <summary>
     /// A set of extensions for <see cref="DangerType"/>.

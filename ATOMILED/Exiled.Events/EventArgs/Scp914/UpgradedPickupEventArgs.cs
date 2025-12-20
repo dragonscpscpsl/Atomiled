@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp914
+namespace Atomiled.Events.EventArgs.Scp914
 {
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Interfaces;
     using global::Scp914;
     using InventorySystem.Items.Pickups;
     using UnityEngine;

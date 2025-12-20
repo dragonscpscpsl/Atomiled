@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Map
+namespace Atomiled.Events.Patches.Events.Map
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -14,7 +14,7 @@ namespace Exiled.Events.Patches.Events.Map
     using API.Features.Pools;
     using Attributes;
     using Decals;
-    using Exiled.Events.EventArgs.Map;
+    using Atomiled.Events.EventArgs.Map;
     using Handlers;
     using HarmonyLib;
     using InventorySystem.Items.Firearms.Modules;
@@ -46,7 +46,7 @@ namespace Exiled.Events.Patches.Events.Map
                     // this.Firearm
                     new(OpCodes.Ldarg_0),
                     new(OpCodes.Callvirt, PropertyGetter(typeof(ImpactEffectsModule), nameof(ImpactEffectsModule.Firearm))),
-                    new(OpCodes.Call, typeof(Exiled.API.Features.Items.Item).GetMethods().Where(x => x.Name == "Get").First()),
+                    new(OpCodes.Call, typeof(Atomiled.API.Features.Items.Item).GetMethods().Where(x => x.Name == "Get").First()),
 
                     // hit
                     new(OpCodes.Ldarg_1),

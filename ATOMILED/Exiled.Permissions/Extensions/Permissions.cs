@@ -5,25 +5,21 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-using LabApi.Loader.Features.Plugins.Configuration;
-
-namespace Exiled.Permissions.Extensions
+namespace Atomiled.Permissions.Extensions
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
     using System.Text;
-    using Atomiled.Permissions.Properties;
-    using LabApi.Loader.Features.Plugins.Configuration;
-    using CommandSystem;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Permissions.Properties;
+    using CommandSystem;
     using Features;
 
-    using static Properties;
     using Query;
     using RemoteAdmin;
 
@@ -31,9 +27,9 @@ namespace Exiled.Permissions.Extensions
     using YamlDotNet.Serialization;
     using YamlDotNet.Serialization.NamingConventions;
 
-    using static Exiled.Permissions.Permissions;
+    using static Atomiled.Permissions.Permissions;
 
-    /// <inheritdoc cref="Exiled.Permissions.Permissions"/>
+    /// <inheritdoc cref="Atomiled.Permissions.Permissions"/>
     public static class Permissions
     {
         private static readonly ISerializer Serializer = new SerializerBuilder()

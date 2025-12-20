@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems
+namespace Atomiled.CustomItems
 {
     using System;
 
-    using Exiled.API.Features;
-    using Exiled.CustomItems.Events;
+    using Atomiled.API.Features;
+    using Atomiled.CustomItems.Events;
 
     using HarmonyLib;
 
@@ -35,9 +35,9 @@ namespace Exiled.CustomItems
             roundHandler = new MapHandler();
             playerHandler = new PlayerHandler();
 
-            Exiled.Events.Handlers.Server.WaitingForPlayers += roundHandler.OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers += roundHandler.OnWaitingForPlayers;
 
-            Exiled.Events.Handlers.Player.ChangingItem += playerHandler.OnChangingItem;
+            Atomiled.Events.Handlers.Player.ChangingItem += playerHandler.OnChangingItem;
 
             harmony = new Harmony($"com.{nameof(CustomItems)}.ExiledTeam-{DateTime.Now.Ticks}");
             GlobalPatchProcessor.PatchAll(harmony, out int failedPatch);
@@ -50,9 +50,9 @@ namespace Exiled.CustomItems
         /// <inheritdoc />
         public override void OnDisabled()
         {
-            Exiled.Events.Handlers.Server.WaitingForPlayers -= roundHandler!.OnWaitingForPlayers;
+            Atomiled.Events.Handlers.Server.WaitingForPlayers -= roundHandler!.OnWaitingForPlayers;
 
-            Exiled.Events.Handlers.Player.ChangingItem -= playerHandler!.OnChangingItem;
+            Atomiled.Events.Handlers.Player.ChangingItem -= playerHandler!.OnChangingItem;
 
             harmony?.UnpatchAll();
 

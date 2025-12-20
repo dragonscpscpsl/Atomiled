@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Items
+namespace Atomiled.API.Features.Items
 {
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
 
     using BaseConsumable = InventorySystem.Items.Usables.Consumable;
 

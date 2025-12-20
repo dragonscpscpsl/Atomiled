@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Doors
+namespace Atomiled.API.Features.Doors
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Core;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Core;
+    using Atomiled.API.Interfaces;
     using Interactables.Interobjects;
     using Interactables.Interobjects.DoorUtils;
     using MEC;
@@ -25,7 +25,7 @@ namespace Exiled.API.Features.Doors
     using Breakable = BreakableDoor;
     using Checkpoint = CheckpointDoor;
     using Elevator = ElevatorDoor;
-    using KeycardPermissions = Exiled.API.Enums.KeycardPermissions;
+    using KeycardPermissions = Atomiled.API.Enums.KeycardPermissions;
 
     /// <summary>
     /// A wrapper class for <see cref="DoorVariant"/>.
@@ -624,6 +624,7 @@ namespace Exiled.API.Features.Doors
                         RoomType.HczEzCheckpointA => DoorType.CheckpointArmoryA,
                         RoomType.HczEzCheckpointB => DoorType.CheckpointArmoryB,
                         RoomType.EzGateA => DoorType.GateAArmory,
+                        RoomType.HczLoadingBay => DoorType.HczLoadingBay,
                         _ => DoorType.UnknownDoor,
                     },
                     "Unsecured Pryable GateDoor" => Room?.Type switch

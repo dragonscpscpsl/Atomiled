@@ -1,18 +1,18 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="ThrownCustomKeycardFix.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Items.Keycards;
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Items.Keycards;
+    using Atomiled.API.Features.Pools;
     using HarmonyLib;
     using Interactables.Interobjects.DoorUtils;
     using InventorySystem.Items.Keycards;

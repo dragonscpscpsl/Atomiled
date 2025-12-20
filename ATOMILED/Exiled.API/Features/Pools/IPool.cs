@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pools
+namespace Atomiled.API.Features.Pools
 {
     /// <summary>
     /// Defines the contract for a class that stores and retrieves commonly used objects.

@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
 
-    using Exiled.API.Features.Pools;
+    using Atomiled.API.Features.Pools;
     using Interfaces;
     using PlayerRoles;
 

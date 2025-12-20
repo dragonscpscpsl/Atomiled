@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Waves
+namespace Atomiled.API.Features.Waves
 {
     using System;
 

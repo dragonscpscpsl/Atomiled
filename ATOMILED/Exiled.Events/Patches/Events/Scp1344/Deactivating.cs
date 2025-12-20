@@ -7,11 +7,11 @@
 
 #pragma warning disable SA1313 // Parameter names should begin with lower-case letter
 
-namespace Exiled.Events.Patches.Events.Scp1344
+namespace Atomiled.Events.Patches.Events.Scp1344
 {
-    using Exiled.API.Features.Items;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp1344;
+    using Atomiled.API.Features.Items;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp1344;
     using HarmonyLib;
     using InventorySystem.Items.Usables.Scp1344;
     using InventorySystem.Items.Usables.Scp244;
@@ -34,7 +34,7 @@ namespace Exiled.Events.Patches.Events.Scp1344
             if (__instance._useTime == 0)
             {
                 TryingDeactivatingEventArgs ev = new(Item.Get(__instance));
-                Exiled.Events.Handlers.Scp1344.OnTryingDeactivating(ev);
+                Atomiled.Events.Handlers.Scp1344.OnTryingDeactivating(ev);
 
                 if (!ev.IsAllowed)
                 {
@@ -45,7 +45,7 @@ namespace Exiled.Events.Patches.Events.Scp1344
             if (__instance._useTime + Time.deltaTime >= 5.1f)
             {
                 DeactivatingEventArgs deactivating = new(Item.Get(__instance));
-                Exiled.Events.Handlers.Scp1344.OnDeactivating(deactivating);
+                Atomiled.Events.Handlers.Scp1344.OnDeactivating(deactivating);
 
                 if (!deactivating.IsAllowed)
                 {
@@ -56,7 +56,7 @@ namespace Exiled.Events.Patches.Events.Scp1344
                 __instance.ServerDropItem(__instance);
 
                 DeactivatedEventArgs ev = new(Item.Get(__instance));
-                Exiled.Events.Handlers.Scp1344.OnDeactivated(ev);
+                Atomiled.Events.Handlers.Scp1344.OnDeactivated(ev);
                 return false;
             }
 

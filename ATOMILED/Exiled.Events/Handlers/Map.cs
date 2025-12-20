@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
 #pragma warning disable SA1623 // Property summary documentation should match accessors
 
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Map;
-    using Exiled.Events.Features;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Map;
+    using Atomiled.Events.Features;
 
     using MapGeneration.Distributors;
 

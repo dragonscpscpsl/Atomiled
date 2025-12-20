@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp939
+namespace Atomiled.Events.EventArgs.Scp939
 {
     using API.Features;
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Features.Roles;
     using Interfaces;
 
     /// <summary>

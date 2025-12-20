@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Models
+namespace Atomiled.Loader.Models
 {
-    using Exiled.Loader.GHApi.Models;
+    using Atomiled.Loader.GHApi.Models;
 
     using SemanticVersioning;
 

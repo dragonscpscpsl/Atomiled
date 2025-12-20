@@ -5,22 +5,22 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Events
+namespace Atomiled.Example.Events
 {
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     /// <summary>
     /// Handles server-related events.
     /// </summary>
     internal sealed class ServerHandler
     {
-        /// <inheritdoc cref="Exiled.Events.Handlers.Server.OnWaitingForPlayers"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Server.OnWaitingForPlayers"/>
         public void OnWaitingForPlayers()
         {
             Log.Info("I'm waiting for players!"); // This is an example of information messages sent to your console!
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Server.OnRoundStarted"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Server.OnRoundStarted"/>
         public void OnRoundStarted()
         {
             Log.Info($"A round has started with {Player.Dictionary.Count} players!");

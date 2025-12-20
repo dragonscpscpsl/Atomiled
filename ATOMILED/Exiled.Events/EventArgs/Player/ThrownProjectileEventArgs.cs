@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Player
+namespace Atomiled.Events.EventArgs.Player
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Items;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pickups.Projectiles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups.Projectiles;
+    using Atomiled.Events.EventArgs.Interfaces;
 
     using InventorySystem.Items.ThrowableProjectiles;
 

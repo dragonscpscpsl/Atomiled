@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
 #pragma warning disable SA1313
 #pragma warning disable CS0618
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
     using HarmonyLib;
 
     /// <summary>

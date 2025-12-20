@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Map
+namespace Atomiled.Events.Patches.Events.Map
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -13,16 +13,16 @@ namespace Exiled.Events.Patches.Events.Map
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.API.Extensions;
-    using Exiled.Events.EventArgs.Map;
-    using Exiled.Events.Patches.Generic;
+    using Atomiled.API.Extensions;
+    using Atomiled.Events.EventArgs.Map;
+    using Atomiled.Events.Patches.Generic;
     using HarmonyLib;
     using InventorySystem.Items.ThrowableProjectiles;
     using UnityEngine;
 
     using static HarmonyLib.AccessTools;
 
-    using ExiledEvents = Exiled.Events.Events;
+    using ExiledEvents = Atomiled.Events.Events;
 
     /// <summary>
     /// Patches <see cref="FlashbangGrenade.ServerFuseEnd()"/>.

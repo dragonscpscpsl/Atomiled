@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Fixes
+namespace Atomiled.Events.Patches.Fixes
 {
 #pragma warning disable SA1402 // File may only contain a single type
     using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace Exiled.Events.Patches.Fixes
 
     using API.Features.Pools;
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     using Footprinting;
     using HarmonyLib;

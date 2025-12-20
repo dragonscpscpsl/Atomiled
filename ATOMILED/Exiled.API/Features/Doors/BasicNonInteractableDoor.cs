@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Doors
+namespace Atomiled.API.Features.Doors
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
 
     using Basegame = Interactables.Interobjects.BasicNonInteractableDoor;
 

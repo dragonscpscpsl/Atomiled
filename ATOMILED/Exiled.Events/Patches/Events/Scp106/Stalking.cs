@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp106
+namespace Atomiled.Events.Patches.Events.Scp106
 {
     using System.Collections.Generic;
     using System.Reflection;
@@ -13,8 +13,8 @@ namespace Exiled.Events.Patches.Events.Scp106
 
     using API.Features;
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp106;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp106;
     using HarmonyLib;
 
     using PlayerRoles.PlayableScps.Scp106;

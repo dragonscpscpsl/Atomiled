@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Permissions.Features
+namespace Atomiled.Permissions.Features
 {
     using System.Collections.Generic;
 

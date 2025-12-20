@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp079
+namespace Atomiled.Events.Patches.Events.Scp079
 {
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp079;
-    using Exiled.Events.Handlers;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp079;
+    using Atomiled.Events.Handlers;
 
     using HarmonyLib;
 

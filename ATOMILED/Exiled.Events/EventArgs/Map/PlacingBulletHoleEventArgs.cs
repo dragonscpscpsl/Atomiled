@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
     using API.Features;
-    using Exiled.API.Features.Items;
+    using Atomiled.API.Features.Items;
     using Interfaces;
 
     using UnityEngine;

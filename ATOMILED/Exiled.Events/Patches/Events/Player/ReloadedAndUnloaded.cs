@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
 #pragma warning disable SA1313 // Parameter names should begin with lower-case letter
     using System.Collections.Generic;
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
 
     using HarmonyLib;
     using InventorySystem.Items.Autosync;

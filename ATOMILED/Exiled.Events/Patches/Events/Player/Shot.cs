@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Player
+namespace Atomiled.Events.Patches.Events.Player
 {
 #pragma warning disable SA1402
 #pragma warning disable SA1649
@@ -14,8 +14,8 @@ namespace Exiled.Events.Patches.Events.Player
     using System.Reflection.Emit;
 
     using API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Player;
     using HarmonyLib;
     using InventorySystem.Items.Firearms.Modules;
     using InventorySystem.Items.Firearms.Modules.Misc;

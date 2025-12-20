@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader.Features.Configs
+namespace Atomiled.Loader.Features.Configs
 {
     using YamlDotNet.Core;
     using YamlDotNet.Core.Events;

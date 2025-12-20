@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups.Keycards
+namespace Atomiled.API.Features.Pickups.Keycards
 {
     using InventorySystem.Items.Keycards;
     using InventorySystem.Items.Keycards.Snake;

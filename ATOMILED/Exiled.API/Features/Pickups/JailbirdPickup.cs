@@ -5,10 +5,10 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
-    using Exiled.API.Features.Items;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features.Items;
+    using Atomiled.API.Interfaces;
 
     using InventorySystem.Items;
     using InventorySystem.Items.Jailbird;
@@ -123,11 +123,11 @@ namespace Exiled.API.Features.Pickups
             base.InitializeProperties(itemBase);
             if (itemBase is JailbirdItem jailbirdItem)
             {
-                MeleeDamage = jailbirdItem._hitreg._damageMelee;
-                ChargeDamage = jailbirdItem._hitreg._damageCharge;
-                FlashDuration = jailbirdItem._hitreg._flashedDuration;
-                ConcussionDuration = jailbirdItem._hitreg._concussionDuration;
-                Radius = jailbirdItem._hitreg._hitregRadius;
+                MeleeDamage = jailbirdItem.MeleeDamage;
+                ChargeDamage = jailbirdItem._chargeDamage;
+                FlashDuration = jailbirdItem._flashedDuration;
+                ConcussionDuration = jailbirdItem._concussionDuration;
+                Radius = Radius;
             }
         }
     }

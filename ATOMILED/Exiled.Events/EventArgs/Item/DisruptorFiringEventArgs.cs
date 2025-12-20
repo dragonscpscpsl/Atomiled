@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Item
+namespace Atomiled.Events.EventArgs.Item
 {
-    using Exiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups;
     using Interfaces;
     using InventorySystem.Items.Firearms.Modules;
     using InventorySystem.Items.Pickups;

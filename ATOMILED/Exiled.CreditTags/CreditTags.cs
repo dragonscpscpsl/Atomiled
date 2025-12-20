@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CreditTags
+namespace Atomiled.CreditTags
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
-    using Exiled.CreditTags.Enums;
-    using Exiled.CreditTags.Events;
-    using Exiled.CreditTags.Features;
+    using Atomiled.API.Features;
+    using Atomiled.CreditTags.Enums;
+    using Atomiled.CreditTags.Events;
+    using Atomiled.CreditTags.Features;
 
-    using PlayerEvents = Exiled.Events.Handlers.Player;
+    using PlayerEvents = Atomiled.Events.Handlers.Player;
 
     /// <summary>
     /// Handles credits for Exiled Devs, Contributors and Plugin devs.
@@ -35,19 +35,19 @@ namespace Exiled.CreditTags
         public static CreditTags Instance => Singleton;
 
         /// <inheritdoc/>
-        public override string Prefix { get; } = "exiled_credits";
+        public override string Prefix { get; } = "atomiled_credits";
 
         /// <summary>
         /// Gets a <see cref="Dictionary{TKey,TValue}"/> of Exiled Credit ranks.
         /// </summary>
         internal Dictionary<RankType, Rank> Ranks { get; } = new()
         {
-            [RankType.Dev] = new Rank("Exiled Developer", "aqua", "00FFFF"),
-            [RankType.Contributor] = new Rank("Exiled Contributor", "magenta", "FF0090"),
-            [RankType.PluginDev] = new Rank("Exiled Plugin Developer", "crimson", "DC143C"),
-            [RankType.TournamentParticipant] = new Rank("Exiled Tournament Participant", "pink", "FF96DE"),
-            [RankType.TournamentChampion] = new Rank("Exiled Tournament Champion", "deep_pink", "FF1493"),
-            [RankType.Donator] = new Rank("EXILED Supporter", "army_green", "4B5320"),
+            [RankType.Dev] = new Rank("Atomiled Developer", "aqua", "00FFFF"),
+            [RankType.Contributor] = new Rank("Atomiled Contributor", "magenta", "FF0090"),
+            [RankType.PluginDev] = new Rank("Atomiled Plugin Developer", "crimson", "DC143C"),
+            [RankType.TournamentParticipant] = new Rank("Atomiled Tournament Participant", "pink", "FF96DE"),
+            [RankType.TournamentChampion] = new Rank("Atomiled Tournament Champion", "deep_pink", "FF1493"),
+            [RankType.Donator] = new Rank("ATOMILED Supporter", "army_green", "4B5320"),
         };
 
         /// <inheritdoc/>

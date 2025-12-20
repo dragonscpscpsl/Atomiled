@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Toys
+namespace Atomiled.API.Features.Toys
 {
     using AdminToys;
     using Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
     using UnityEngine;
 
     /// <summary>

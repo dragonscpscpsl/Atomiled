@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Handlers
+namespace Atomiled.Events.Handlers
 {
     using System.Collections.Generic;
 
@@ -14,8 +14,8 @@ namespace Exiled.Events.Handlers
 
 #pragma warning disable SA1623 // Property summary documentation should match accessors
 
-    using Exiled.Events.EventArgs.Server;
-    using Exiled.Events.Features;
+    using Atomiled.Events.EventArgs.Server;
+    using Atomiled.Events.Features;
 
     /// <summary>
     /// Server related events.

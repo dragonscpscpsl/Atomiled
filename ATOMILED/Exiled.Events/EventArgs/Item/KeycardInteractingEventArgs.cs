@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Item
+namespace Atomiled.Events.EventArgs.Item
 {
-    using Exiled.API.Features;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Pickups;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Interactables.Interobjects.DoorUtils;
 
     using BaseKeycardPickup = InventorySystem.Items.Keycards.KeycardPickup;

@@ -1,16 +1,16 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="ObjectiveType.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     /// <summary>
     /// An enum representing the different types of objectives.
     /// </summary>
-    /// <seealso cref="Exiled.API.Features.Objectives.Objective" />
+    /// <seealso cref="Atomiled.API.Features.Objectives.Objective" />
     public enum ObjectiveType
     {
         /// <summary>

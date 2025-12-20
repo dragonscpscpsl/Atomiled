@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp079
+namespace Atomiled.Events.EventArgs.Scp079
 {
     using API.Features;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Roles;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Roles;
     using Interfaces;
 
     using RelativePositioning;

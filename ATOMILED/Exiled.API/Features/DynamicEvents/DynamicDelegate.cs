@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.DynamicEvents
+namespace Atomiled.API.Features.DynamicEvents
 {
     using System;
 
-    using Exiled.API.Features.Core;
+    using Atomiled.API.Features.Core;
 
     /// <summary>
     /// The <see cref="DynamicDelegate"/> allows user-defined delegate routes bound to an <see cref="object"/> reference.

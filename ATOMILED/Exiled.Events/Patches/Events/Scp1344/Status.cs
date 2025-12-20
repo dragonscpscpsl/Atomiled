@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp1344
+namespace Atomiled.Events.Patches.Events.Scp1344
 {
     using System;
     using System.Collections.Generic;
     using System.Reflection;
     using System.Reflection.Emit;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.Attributes;
-    using Exiled.Events.EventArgs.Scp1344;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.Attributes;
+    using Atomiled.Events.EventArgs.Scp1344;
     using HarmonyLib;
 
     using InventorySystem.Items.Usables.Scp1344;

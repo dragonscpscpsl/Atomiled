@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example.Commands
+namespace Atomiled.Example.Commands
 {
 #pragma warning disable SA1402
     // Usings
@@ -13,7 +13,7 @@ namespace Exiled.Example.Commands
 
     using CommandSystem;
 
-    using Exiled.Permissions.Extensions; // Use this if you want to add perms
+    using Atomiled.Permissions.Extensions; // Use this if you want to add perms
 
     /// <inheritdoc/>
     [CommandHandler(typeof(RemoteAdminCommandHandler))] // You can change the command handler

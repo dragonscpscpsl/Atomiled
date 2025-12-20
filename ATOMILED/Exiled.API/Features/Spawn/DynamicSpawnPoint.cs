@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Spawn
+namespace Atomiled.API.Features.Spawn
 {
     using System;
 
-    using Exiled.API.Enums;
+    using Atomiled.API.Enums;
 
     using Extensions;
 

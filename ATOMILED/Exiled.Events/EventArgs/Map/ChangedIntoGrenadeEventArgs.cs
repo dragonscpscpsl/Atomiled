@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pickups.Projectiles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups.Projectiles;
+    using Atomiled.Events.EventArgs.Interfaces;
     using InventorySystem.Items.ThrowableProjectiles;
 
     /// <summary>

@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Events.Scp3114
+namespace Atomiled.Events.Patches.Events.Scp3114
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection.Emit;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Scp3114;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Scp3114;
     using HarmonyLib;
     using Mirror;
     using PlayerRoles.PlayableScps.Scp3114;

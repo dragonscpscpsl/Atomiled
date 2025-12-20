@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.Collections.Generic;
@@ -18,11 +18,11 @@ namespace Exiled.Loader
     using System.Text;
     using System.Threading;
 
-    using Exiled.API.Features;
-    using Exiled.Loader.GHApi;
-    using Exiled.Loader.GHApi.Models;
-    using Exiled.Loader.GHApi.Settings;
-    using Exiled.Loader.Models;
+    using Atomiled.API.Features;
+    using Atomiled.Loader.GHApi;
+    using Atomiled.Loader.GHApi.Models;
+    using Atomiled.Loader.GHApi.Settings;
+    using Atomiled.Loader.Models;
     using ServerOutput;
 
 #pragma warning disable SA1310 // Field names should not contain underscore
@@ -33,8 +33,8 @@ namespace Exiled.Loader
     internal sealed class Updater
     {
         private const long REPOID = 0;
-        private const string INSTALLER_ASSET_NAME_LINUX = "Exiled.Installer-Linux";
-        private const string INSTALLER_ASSET_NAME_WIN = "Exiled.Installer-Win.exe";
+        private const string INSTALLER_ASSET_NAME_LINUX = "Atomiled.Installer-Linux";
+        private const string INSTALLER_ASSET_NAME_WIN = "Atomiled.Installer-Win.exe";
 
         private static readonly PlatformID PlatformId = Environment.OSVersion.Platform;
         private static readonly Encoding ProcessEncoding = new UTF8Encoding(false, false);
@@ -128,7 +128,7 @@ namespace Exiled.Loader
         /// <summary>
         /// Creates a HTTP Client, and checks at the ExMod-Team GitHub repository.
         /// </summary>
-        /// <returns>Client determining if it was successful connecting to the Exiled GitHub repository.</returns>
+        /// <returns>Client determining if it was successful connecting to the Atomiled GitHub repository.</returns>
         private HttpClient CreateHttpClient()
         {
             HttpClient client = new()
@@ -146,7 +146,7 @@ namespace Exiled.Loader
         /// </summary>
         /// <param name="client"> is the HTTP Client.</param>
         /// <param name="forced"> if the detection was forced.</param>
-        /// <param name="newVersion"> if there is a new version of EXILED.</param>
+        /// <param name="newVersion"> if there is a new version of ATOMILED.</param>
         /// <returns>Returns true if there is an update, otherwise false.</returns>
         private bool FindUpdate(HttpClient client, bool forced, out NewVersion newVersion)
         {
@@ -229,7 +229,7 @@ namespace Exiled.Loader
                     FileName = installerPath,
                     UseShellExecute = false,
                     CreateNoWindow = true,
-                    Arguments = $"--exit {(Folder == "global" ? string.Empty : $"--target-port {Folder}")} --target-version {newVersion.Release.TagName} --appdata \"{Paths.AppData}\" --atomiled \"{config.AtomiledDirectoryPath}\" {(newVersion.IsPrerelease ? "--pre-releases" : string.Empty)}",
+                    Arguments = $"--exit {(Folder == "global" ? string.Empty : $"--target-port {Folder}")} --target-version {newVersion.Release.TagName} --appdata \"{Paths.AppData}\" --atomiled \"{Path.Combine(config.AtomiledDirectoryPath, "..")}\" {(newVersion.IsPrerelease ? "--pre-releases" : string.Empty)}",
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
                     StandardErrorEncoding = ProcessEncoding,
@@ -282,10 +282,10 @@ namespace Exiled.Loader
         }
 
         /// <summary>
-        /// Gets the releases of Exiled.
+        /// Gets the releases of Atomiled.
         /// </summary>
         /// <param name="releases"> gets the array of releases that has been made.</param>
-        /// <returns>The last item in the array, which is the newest version of Exiled.</returns>
+        /// <returns>The last item in the array, which is the newest version of Atomiled.</returns>
         private TaggedRelease[] TagReleases(Release[] releases)
         {
             TaggedRelease[] arr = new TaggedRelease[releases.Length];
@@ -299,8 +299,8 @@ namespace Exiled.Loader
         /// Is able to find the release specificed.
         /// </summary>
         /// <param name="releases"> is the list of releases (array).</param>
-        /// <param name="release"> is the most recent release of Exiled.</param>
-        /// <param name="smallestVersion"> finds the smallest version of the Exiled Library.</param>
+        /// <param name="release"> is the most recent release of Atomiled.</param>
+        /// <param name="smallestVersion"> finds the smallest version of the Atomiled Library.</param>
         /// <param name="forced"> if this update was forced or not.</param>
         /// <returns>the if the specific release was found or not.</returns>
         private bool FindRelease(TaggedRelease[] releases, out Release release, ExiledLib smallestVersion, bool forced = false)

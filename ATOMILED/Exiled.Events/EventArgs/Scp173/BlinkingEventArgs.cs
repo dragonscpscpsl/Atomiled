@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp173
+namespace Atomiled.Events.EventArgs.Scp173
 {
     using System.Collections.Generic;
 

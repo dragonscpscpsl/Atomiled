@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core.UserSettings
+namespace Atomiled.API.Features.Core.UserSettings
 {
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Linq;
 
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Interfaces;
     using global::UserSettings.ServerSpecific;
 
     /// <summary>

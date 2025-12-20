@@ -5,15 +5,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features.Attributes;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features.Attributes;
     using Mirror;
     using UnityEngine;
 

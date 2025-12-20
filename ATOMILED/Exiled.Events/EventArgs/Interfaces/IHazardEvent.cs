@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Interfaces
+namespace Atomiled.Events.EventArgs.Interfaces
 {
-    using Exiled.API.Features.Hazards;
+    using Atomiled.API.Features.Hazards;
 
     /// <summary>
     /// Event args for all <see cref="API.Features.Hazards.Hazard"/> related events.

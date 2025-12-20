@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Example
+namespace Atomiled.Example
 {
     using System.Collections.Generic;
     using System.ComponentModel;
 
-    using Exiled.API.Features;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Features;
+    using Atomiled.API.Interfaces;
 
     using InventorySystem.Items.Firearms.Attachments;
 

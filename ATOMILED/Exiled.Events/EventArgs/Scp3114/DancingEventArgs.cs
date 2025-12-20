@@ -5,13 +5,13 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp3114
+namespace Atomiled.Events.EventArgs.Scp3114
 {
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
-    using Exiled.Events.Patches.Events.Scp3114;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
+    using Atomiled.Events.Patches.Events.Scp3114;
 
     /// <summary>
     /// Contains all information before SCP-3114 changes its dancing status.

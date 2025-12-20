@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Toys
+namespace Atomiled.API.Features.Toys
 {
     using System;
     using System.Collections.Generic;
@@ -14,8 +14,8 @@ namespace Exiled.API.Features.Toys
     using System.Threading.Tasks;
 
     using AdminToys;
-    using Exiled.API.Enums;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Interfaces;
     using UnityEngine;
 
     /// <summary>

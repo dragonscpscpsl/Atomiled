@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
-    using Exiled.API.Features.Hazards;
+    using Atomiled.API.Features.Hazards;
 
     /// <summary>
     /// Unique identifier for a <see cref="Hazard"/>.

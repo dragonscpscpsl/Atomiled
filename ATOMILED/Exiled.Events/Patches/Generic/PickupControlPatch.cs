@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System;
     using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace Exiled.Events.Patches.Generic
     using API.Features.Pickups;
     using API.Features.Pools;
 
-    using Exiled.API.Features.Items;
+    using Atomiled.API.Features.Items;
 
     using HarmonyLib;
 

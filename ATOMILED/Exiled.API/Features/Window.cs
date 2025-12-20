@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
@@ -13,9 +13,9 @@ namespace Exiled.API.Features
 
     using DamageHandlers;
     using Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Interfaces;
     using UnityEngine;
 
     /// <summary>
@@ -231,6 +231,7 @@ namespace Exiled.API.Features
                 RoomType.HczEzCheckpointB => GlassType.HczEzCheckpointB,
                 RoomType.EzGateA when Base.name[7] == '5' => GlassType.GateAArmory,
                 RoomType.EzGateA => GlassType.GateAPit,
+                RoomType.HczLoadingBay => GlassType.HczLoadingBay,
                 _ => GlassType.Unknown,
             },
             "Window" => Room?.Type switch

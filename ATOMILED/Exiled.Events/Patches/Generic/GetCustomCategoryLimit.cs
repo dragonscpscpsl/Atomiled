@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.Patches.Generic
+namespace Atomiled.Events.Patches.Generic
 {
     using System;
 
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
     using HarmonyLib;
     using InventorySystem.Configs;
     using UnityEngine;

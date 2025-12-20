@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.Events
+namespace Atomiled.CustomRoles.Events
 {
     using System;
     using System.Collections.Generic;
     using System.Threading;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Features;
-    using Exiled.CustomRoles.API;
-    using Exiled.CustomRoles.API.Features;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Features;
+    using Atomiled.CustomRoles.API;
+    using Atomiled.CustomRoles.API.Features;
+    using Atomiled.Events.EventArgs.Player;
 
     /// <summary>
     /// Handles general events for players.
@@ -43,7 +43,7 @@ namespace Exiled.CustomRoles.Events
             this.plugin = plugin;
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Server.WaitingForPlayers"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Server.WaitingForPlayers"/>
         internal void OnWaitingForPlayers()
         {
             foreach (CustomRole role in CustomRole.Registered)
@@ -52,7 +52,7 @@ namespace Exiled.CustomRoles.Events
             }
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Player.SpawningRagdoll"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Player.SpawningRagdoll"/>
         internal void OnSpawningRagdoll(SpawningRagdollEventArgs ev)
         {
             if (plugin.StopRagdollPlayers.Contains(ev.Player))
@@ -62,7 +62,7 @@ namespace Exiled.CustomRoles.Events
             }
         }
 
-        /// <inheritdoc cref="Exiled.Events.Handlers.Player.Spawning"/>
+        /// <inheritdoc cref="Atomiled.Events.Handlers.Player.Spawning"/>
         internal void OnSpawned(SpawnedEventArgs ev)
         {
             if (!ValidSpawnReasons.Contains(ev.Reason) || ev.Player.HasAnyCustomRole())

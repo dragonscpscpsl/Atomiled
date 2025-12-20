@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Roles
+namespace Atomiled.API.Features.Roles
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Features.Hazards;
+    using Atomiled.API.Features.Hazards;
     using Mirror;
     using PlayerRoles;
     using PlayerRoles.PlayableScps;

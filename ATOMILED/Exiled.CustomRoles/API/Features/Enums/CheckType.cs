@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomRoles.API.Features.Enums
+namespace Atomiled.CustomRoles.API.Features.Enums
 {
     /// <summary>
     /// The possible types of checks to preform on active abilities.

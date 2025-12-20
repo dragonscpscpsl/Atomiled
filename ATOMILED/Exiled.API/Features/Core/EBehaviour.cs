@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Core
+namespace Atomiled.API.Features.Core
 {
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
 
     /// <summary>
     /// <see cref="EBehaviour"/> is a versatile component designed to enhance the functionality of playable characters.

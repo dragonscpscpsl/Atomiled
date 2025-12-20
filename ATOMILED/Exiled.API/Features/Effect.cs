@@ -5,14 +5,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System.ComponentModel;
 
     using CustomPlayerEffects;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
 
     /// <summary>
     /// Useful class to save effect-related configs cleanly.

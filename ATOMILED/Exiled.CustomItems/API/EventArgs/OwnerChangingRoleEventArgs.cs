@@ -5,11 +5,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.CustomItems.API.EventArgs
+namespace Atomiled.CustomItems.API.EventArgs
 {
-    using Exiled.API.Features;
-    using Exiled.CustomItems.API.Features;
-    using Exiled.Events.EventArgs.Player;
+    using Atomiled.API.Features;
+    using Atomiled.CustomItems.API.Features;
+    using Atomiled.Events.EventArgs.Player;
 
     using InventorySystem.Items;
 

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Spawn
+namespace Atomiled.API.Features.Spawn
 {
     using UnityEngine;
 

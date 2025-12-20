@@ -1,14 +1,14 @@
-﻿// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // <copyright file="CompletingObjectiveEventArgs.cs" company="ExMod Team">
 // Copyright (c) ExMod Team. All rights reserved.
 // Licensed under the CC BY-SA 3.0 license.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Server
+namespace Atomiled.Events.EventArgs.Server
 {
-    using Exiled.API.Features.Objectives;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Objectives;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Respawning.Objectives;
 
     /// <summary>

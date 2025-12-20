@@ -5,17 +5,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features
+namespace Atomiled.API.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Exiled.API.Enums;
-    using Exiled.API.Extensions;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Pools;
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Enums;
+    using Atomiled.API.Extensions;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.API.Interfaces;
     using Interactables.Interobjects;
     using Interactables.Interobjects.DoorUtils;
     using UnityEngine;
@@ -47,6 +47,7 @@ namespace Exiled.API.Features
         internal Lift(ElevatorChamber elevator)
         {
             Base = elevator;
+            ElevatorAutoReturn = elevator.GetComponent<ElevatorAutoReturn>();
             ElevatorChamberToLift.Add(elevator, this);
 
             internalDoorsList.AddRange(Elevator.AllElevatorDoors[Group]);
@@ -72,6 +73,12 @@ namespace Exiled.API.Features
         /// Gets the base <see cref="ElevatorChamber"/>.
         /// </summary>
         public ElevatorChamber Base { get; }
+
+        /// <summary>
+        /// Gets the base <see cref="ElevatorAutoReturn"/>.
+        /// </summary>
+        /// <remarks>Would be null for any elevator that do not used <see cref="Interactables.Interobjects.ElevatorAutoReturn"/>.</remarks>
+        public ElevatorAutoReturn ElevatorAutoReturn { get; }
 
         /// <summary>
         /// Gets a value of the internal doors list.

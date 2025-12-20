@@ -9,7 +9,7 @@
 #pragma warning disable CS1591 // XML Comment Missing
 #pragma warning disable SA1602 // Enumeration items should be documented
 
-namespace Exiled.API.Enums
+namespace Atomiled.API.Enums
 {
     using Features;
 
@@ -159,6 +159,11 @@ namespace Exiled.API.Enums
         EzGateAElevators,
         EzGateBInterior,
         EzGateBSide,
+        EzGateAStairwell,
+        EzGateAUpper,
+        HczLoadingBay,
+        HczLoadingBayRamp,
+        HczLoadingBayStairwell,
         #endregion
     }
 }

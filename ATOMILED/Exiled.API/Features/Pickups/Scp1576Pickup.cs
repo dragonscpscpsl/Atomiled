@@ -5,9 +5,9 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.Pickups
+namespace Atomiled.API.Features.Pickups
 {
-    using Exiled.API.Interfaces;
+    using Atomiled.API.Interfaces;
 
     using BaseScp1576 = InventorySystem.Items.Usables.Scp1576.Scp1576Pickup;
 

@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Loader
+namespace Atomiled.Loader
 {
     using System;
     using System.ComponentModel;
@@ -13,7 +13,7 @@ namespace Exiled.Loader
 
     using API.Enums;
     using API.Interfaces;
-    using Exiled.API.Features;
+    using Atomiled.API.Features;
     using YamlDotNet.Core;
 
     /// <summary>
@@ -30,9 +30,9 @@ namespace Exiled.Loader
         public bool Debug { get; set; } = false;
 
         /// <summary>
-        /// Gets or sets a value indicating whether outdated ATOMILED versions should be loaded.
+        /// Gets or sets a value indicating whether outdated Atomiled versions should be loaded.
         /// </summary>
-        [Description("Indicates whether outdated ATOMILED versions should be loaded.")]
+        [Description("Indicates whether outdated Atomiled versions should be loaded.")]
         public bool ShouldLoadOutdatedAtomiled { get; set; } = false;
 
         /// <summary>
@@ -42,9 +42,9 @@ namespace Exiled.Loader
         public bool ShouldLoadOutdatedPlugins { get; set; } = true;
 
         /// <summary>
-        /// Gets or sets the ATOMILED directory path from which plugins will be loaded.
+        /// Gets or sets the Atomiled directory path from which plugins will be loaded.
         /// </summary>
-        [Description("The ATOMILED directory path from which plugins will be loaded.")]
+        [Description("The Atomiled directory path from which plugins will be loaded.")]
         public string AtomiledDirectoryPath { get; set; } = Path.Combine(Paths.AppData, "ATOMILED");
 
         /// <summary>
@@ -84,9 +84,9 @@ namespace Exiled.Loader
         public string[] ExcludeAssemblies { get; set; } = Array.Empty<string>();
 
         /// <summary>
-        /// Gets or sets a value indicating whether Exiled should auto-update itself as soon as a new release is available.
+        /// Gets or sets a value indicating whether Atomiled should auto-update itself as soon as a new release is available.
         /// </summary>
-        [Description("Indicates whether Exiled should auto-update itself as soon as a new release is available.")]
+        [Description("Indicates whether Atomiled should auto-update itself as soon as a new release is available.")]
         public bool EnableAutoUpdates { get; set; } = true;
     }
 }

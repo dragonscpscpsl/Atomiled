@@ -5,7 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.API.Features.CustomStats
+namespace Atomiled.API.Features.CustomStats
 {
     using Mirror;
     using PlayerRoles.PlayableScps.HumeShield;

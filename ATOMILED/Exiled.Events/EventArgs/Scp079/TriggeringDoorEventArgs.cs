@@ -5,12 +5,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Scp079
+namespace Atomiled.Events.EventArgs.Scp079
 {
     using API.Features;
-    using Exiled.API.Features.Doors;
-    using Exiled.API.Features.Roles;
-    using Exiled.Events.EventArgs.Interfaces;
+    using Atomiled.API.Features.Doors;
+    using Atomiled.API.Features.Roles;
+    using Atomiled.Events.EventArgs.Interfaces;
     using Interactables.Interobjects.DoorUtils;
 
     using Player;

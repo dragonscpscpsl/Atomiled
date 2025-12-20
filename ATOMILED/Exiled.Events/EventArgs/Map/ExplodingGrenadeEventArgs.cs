@@ -5,16 +5,16 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace Exiled.Events.EventArgs.Map
+namespace Atomiled.Events.EventArgs.Map
 {
     using System.Collections.Generic;
 
-    using Exiled.API.Features;
-    using Exiled.API.Features.Pickups;
-    using Exiled.API.Features.Pickups.Projectiles;
-    using Exiled.API.Features.Pools;
-    using Exiled.Events.EventArgs.Interfaces;
-    using Exiled.Events.Patches.Generic;
+    using Atomiled.API.Features;
+    using Atomiled.API.Features.Pickups;
+    using Atomiled.API.Features.Pickups.Projectiles;
+    using Atomiled.API.Features.Pools;
+    using Atomiled.Events.EventArgs.Interfaces;
+    using Atomiled.Events.Patches.Generic;
 
     using Footprinting;
 
