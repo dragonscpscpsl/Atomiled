@@ -46,9 +46,8 @@ namespace Atomiled.Installer
 
     internal static class Program
     {
-        private const long RepoID = 0;
-        private const string AtomiledAssetName = "atomiled.tar.gz";
-        private const string orAtomiledAssetName = "Atomiled.tar.gz";
+        private const long RepoID = 1116197331;
+        private const string AtomiledAssetName = "Atomiled.tar.gz";
 
         // This is the lowest version the installer will check to install
         private static readonly Version VersionLimit = new("8.0.0");

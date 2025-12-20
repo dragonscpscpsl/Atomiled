@@ -87,6 +87,6 @@ namespace Atomiled.Loader
         /// Gets or sets a value indicating whether Atomiled should auto-update itself as soon as a new release is available.
         /// </summary>
         [Description("Indicates whether Atomiled should auto-update itself as soon as a new release is available.")]
-        public bool EnableAutoUpdates { get; set; } = true;
+        public bool EnableAutoUpdates { get; set; } = false;
     }
 }

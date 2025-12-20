@@ -59,9 +59,9 @@ namespace Atomiled.Installer.Properties {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to EXILED\:EXILED
+        ///   Looks up a localized string similar to ATOMILED\:ATOMILED
         ///SCP Secret Laboratory\:ABSOLUTE
         ///.
         /// </summary>

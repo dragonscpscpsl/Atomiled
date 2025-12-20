@@ -32,7 +32,7 @@ namespace Atomiled.Loader
     /// </summary>
     internal sealed class Updater
     {
-        private const long REPOID = 0;
+        private const long REPOID = 1116197331;
         private const string INSTALLER_ASSET_NAME_LINUX = "Atomiled.Installer-Linux";
         private const string INSTALLER_ASSET_NAME_WIN = "Atomiled.Installer-Win.exe";
 
