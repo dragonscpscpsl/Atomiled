@@ -1,7 +1,7 @@
----
+
 [![Version](https://img.shields.io/github/v/release/dragonscpscpsl/Atomiled?sort=semver&label=Version)](https://github.com/dragonscpscpsl/Atomiled/releases/)
 [![Downloads](https://img.shields.io/github/downloads/dragonscpscpsl/Atomiled/total?label=Downloads)](https://github.com/dragonscpscpsl/Atomiled/releases/)
----
+
 # Atomiled
 ------------
 Atomiled is a plugin loader based on exiled.
