@@ -31,8 +31,10 @@ AtomBombası (atombombasi_55908) @someone (atsomeone) ExMod Exiled Team
 <p align="center">
   <img alt="ATOMILED Development" src="https://repobeats.axiom.co/api/embed/50a26f81d88f2cb6f9598bccfc2362c785255bf3.svg">
 </p>
+---
  [![Version](https://img.shields.io/github/v/release/dragonscpscpsl/Atomiled?sort=semver&label=Version)](https://github.com/dragonscpscpsl/Atomiled/releases/)
  [![Downloads](https://img.shields.io/github/downloads/dragonscpscpsl/Atomiled/total?label=Downloads)](https://github.com/dragonscpscpsl/Atomiled/releases/)
+---
 
 <h1 align="center">
 Localized Exiled READMEs
